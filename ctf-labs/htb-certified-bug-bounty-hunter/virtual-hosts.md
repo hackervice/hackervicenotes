@@ -10,7 +10,7 @@ The following command is the first time I tried to identified the flags within t
 ffuf -w ./vhosts -u http://10.129.194.60 -H "HOST: FUZZ.inlanefreight.htb"
 ```
 
-<figure><img src="../.gitbook/assets/Screenshot 2024-04-20 012011.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2024-04-20 012011.png" alt=""><figcaption></figcaption></figure>
 
 As we can see from the output, almost all of the vHosts have a Content Length 10918 size. With a very large list (more than 150000 words)!
 
@@ -22,7 +22,7 @@ We are also assuming the Flag is not in a vHost with a 10918 sized Content Lengh
 ffuf -w ./vhosts -u http://10.129.194.60 -H "HOST: FUZZ.inlanefreight.htb" -fs 10918
 ```
 
-<figure><img src="../.gitbook/assets/Screenshot 2024-04-20 012037.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2024-04-20 012037.png" alt=""><figcaption></figcaption></figure>
 
 As we can see, with the filter we narrowed our results to just 6 targets. Much more doable
 
@@ -43,7 +43,7 @@ Then let’s adapt the script from HTB with a few teaks in order to lookup to th
 cat ./results | while read results;do echo "\n********\nFUZZING: ${results}\n********";curl -s http://inlanefreight.htb -H "HOST: ${results}.inlanefreight.htb" | grep "FLAG\|HTB";done
 ```
 
-<figure><img src="../.gitbook/assets/Screenshot 2024-04-20 012528.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2024-04-20 012528.png" alt=""><figcaption></figcaption></figure>
 
 **Enumerate the target and find a vHost that contains flag No. 1. Submit the flag value as your answer (in the format HTB{DATA}).**
 
