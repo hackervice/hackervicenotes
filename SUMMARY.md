@@ -21,3 +21,6 @@
   * [OS command injection](server-side-vulnerabilities/os-command-injection.md)
   * [SQL Injection](server-side-vulnerabilities/sql-injection/README.md)
     * [Lab: SQL injection vulnerability in WHERE clause allowing retrieval of hidden data](server-side-vulnerabilities/sql-injection/lab-sql-injection-vulnerability-in-where-clause-allowing-retrieval-of-hidden-data.md)
+* [HTB Certified Bug Bounty Hunter](htb-certified-bug-bounty-hunter/README.md)
+  * [WHOIS](htb-certified-bug-bounty-hunter/whois.md)
+  * [DNS](htb-certified-bug-bounty-hunter/dns.md)
