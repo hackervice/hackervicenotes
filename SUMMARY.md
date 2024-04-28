@@ -27,3 +27,4 @@
   * [Active Infrastructure Identification](htb-certified-bug-bounty-hunter/active-infrastructure-identification.md)
   * [Active Subdomain Enumeration](htb-certified-bug-bounty-hunter/active-subdomain-enumeration.md)
   * [Virtual Hosts](htb-certified-bug-bounty-hunter/virtual-hosts.md)
+  * [Information Gathering - Web - Skills Assessment](htb-certified-bug-bounty-hunter/information-gathering-web-skills-assessment.md)
