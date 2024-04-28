@@ -2,7 +2,7 @@
 
 For this lab we are asked to enumerate 5 vHosts targets. The web server is 10.129.194.60 and vHosts to be fuzzed s www.inlanefreight.htb
 
-The most efficient way to enumerate this vHost is by using the `ffuf` tool with this [worlist](https://github.com/danielmiessler/SecLists/blob/master/Discovery/DNS/namelist.txt) by SecList.
+The most efficient way to enumerate this vHost is by using the `ffuf` tool with this [wordlist](https://github.com/danielmiessler/SecLists/blob/master/Discovery/DNS/namelist.txt) by SecList.
 
 The following command is the first time I tried to identified the flags within the vHosts found
 
