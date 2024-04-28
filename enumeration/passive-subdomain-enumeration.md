@@ -1,10 +1,8 @@
 # Passive Subdomain Enumeration
 
-
-
 ### VirusTotal
 
-virustotal.com
+{% embed url="https://virustotal.com" %}
 
 ### Certificates
 
