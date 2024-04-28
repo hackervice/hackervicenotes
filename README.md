@@ -1,8 +1,7 @@
 ---
-description: >-
-  Cybersecurity notes covering offensive techniques and CTF walkthrough
+description: Cybersecurity notes covering offensive techniques and CTF walkthrough
 ---
 
-# What is HackerVice?
+# Welcome to Hackervice
 
-This is my public personal notes, where I want to share my knowledge in cybersecurity in order to consolidate various techiniques in one single place. And hopefully help someone who's starting their journey.
+These are my public personal notes, where I want to share my knowledge in cybersecurity in order to consolidate various techniques in one single place. And hopefully help someone who's starting their journey.
