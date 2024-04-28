@@ -26,3 +26,4 @@
   * [DNS](htb-certified-bug-bounty-hunter/dns.md)
   * [Active Infrastructure Identification](htb-certified-bug-bounty-hunter/active-infrastructure-identification.md)
   * [Active Subdomain Enumeration](htb-certified-bug-bounty-hunter/active-subdomain-enumeration.md)
+  * [Virtual Hosts](htb-certified-bug-bounty-hunter/virtual-hosts.md)
