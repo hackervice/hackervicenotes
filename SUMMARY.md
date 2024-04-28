@@ -19,4 +19,5 @@
   * [Server-side request forgery](server-side-vulnerabilities/server-side-request-forgery.md)
   * [File upload vulnerabilities](server-side-vulnerabilities/file-upload-vulnerabilities.md)
   * [OS command injection](server-side-vulnerabilities/os-command-injection.md)
-  * [SQL Injection](server-side-vulnerabilities/sql-injection.md)
+  * [SQL Injection](server-side-vulnerabilities/sql-injection/README.md)
+    * [Lab: SQL injection vulnerability in WHERE clause allowing retrieval of hidden data](server-side-vulnerabilities/sql-injection/lab-sql-injection-vulnerability-in-where-clause-allowing-retrieval-of-hidden-data.md)
