@@ -16,7 +16,7 @@ virustotal.com
 
 {% embed url="https://crt.sh" %}
 
-{% code title="Enumerates subdomains listed on crt.sh" fullWidth="true" %}
+{% code title="Enumerates subdomains listed on crt.sh" fullWidth="false" %}
 ```javascript
 export TARGET="example.com"
 export PORT="443"
@@ -28,7 +28,7 @@ openssl s_client -ign_eof 2>/dev/null <<<$'HEAD / HTTP/1.0\r\n\r' -connect "${TA
 
 ### OpenSSL
 
-{% code fullWidth="true" %}
+{% code fullWidth="false" %}
 ```javascript
 export TARGET="example.com"
 export PORT="443"
