@@ -23,6 +23,7 @@
   * [OS command injection](server-side-vulnerabilities/os-command-injection.md)
   * [SQL Injection](server-side-vulnerabilities/sql-injection/README.md)
     * [Lab: SQL injection vulnerability in WHERE clause allowing retrieval of hidden data](server-side-vulnerabilities/sql-injection/lab-sql-injection-vulnerability-in-where-clause-allowing-retrieval-of-hidden-data.md)
+* [🖥️ Active Directory](page.md)
 * [🧪 CTF / Labs](ctf-labs/README.md)
   * [HTB Certified Bug Bounty Hunter](ctf-labs/htb-certified-bug-bounty-hunter/README.md)
     * [WHOIS](ctf-labs/htb-certified-bug-bounty-hunter/whois.md)
@@ -31,4 +32,3 @@
     * [Active Subdomain Enumeration](ctf-labs/htb-certified-bug-bounty-hunter/active-subdomain-enumeration.md)
     * [Virtual Hosts](ctf-labs/htb-certified-bug-bounty-hunter/virtual-hosts.md)
     * [Information Gathering - Web - Skills Assessment](ctf-labs/htb-certified-bug-bounty-hunter/information-gathering-web-skills-assessment.md)
-* [🖥️ Active Directory](page.md)
