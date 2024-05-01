@@ -31,4 +31,4 @@
     * [Active Subdomain Enumeration](ctf-labs/htb-certified-bug-bounty-hunter/active-subdomain-enumeration.md)
     * [Virtual Hosts](ctf-labs/htb-certified-bug-bounty-hunter/virtual-hosts.md)
     * [Information Gathering - Web - Skills Assessment](ctf-labs/htb-certified-bug-bounty-hunter/information-gathering-web-skills-assessment.md)
-* [Page](page.md)
+* [Active Directory](active-directory.md)
