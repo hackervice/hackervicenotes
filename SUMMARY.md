@@ -35,3 +35,4 @@
       * [Information Gathering - Web - Skills Assessment](ctf-labs/htb-certified-bug-bounty-hunter/information-gathering/information-gathering-web-skills-assessment.md)
     * [Attacking Web Applications with Ffuf](ctf-labs/htb-certified-bug-bounty-hunter/attacking-web-applications-with-ffuf/README.md)
       * [Directory Fuzzing](ctf-labs/htb-certified-bug-bounty-hunter/attacking-web-applications-with-ffuf/directory-fuzzing.md)
+      * [Page Fuzzing](ctf-labs/htb-certified-bug-bounty-hunter/attacking-web-applications-with-ffuf/page-fuzzing.md)
