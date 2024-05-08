@@ -82,7 +82,7 @@ atlas-pp-shv-{GOBUSTER}-sin6
 ```
 {% endcode %}
 
-{% code title="wordlist by SecLists" %}
+{% code title="wordlist by SecLists" overflow="wrap" %}
 ```sh
 export TARGET="[example.com](<http://example.com/>)"
 export NS="[d.ns.example.com](<http://d.ns.example.com/>)"
