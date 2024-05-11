@@ -33,3 +33,11 @@ Scanning recursively allow us to identify sub-directories like /login/user/...et
 ffuf -w /opt/useful/SecLists/Discovery/Web-Content/directory-list-2.3-small.txt:FUZZ -u http://example.com:PORT/FUZZ -recursion -recursion-depth 1 -e .php -v
 ```
 {% endcode %}
+
+### Subdomain Fuzzing
+
+{% code overflow="wrap" %}
+```shell
+ffuf -w /opt/useful/SecLists/Discovery/DNS/subdomains-top1million-5000.txt:FUZZ -u https://FUZZ.example.com/
+```
+{% endcode %}
