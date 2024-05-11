@@ -16,6 +16,16 @@ ffuf -w /opt/useful/SecLists/Discovery/Web-Content/directory-list-2.3-small.txt:
 
 ### Page Fuzzing
 
+After we found a directory it might return an empty page. To discover common files we can fuzz well-known pages like `.html`, `.aspx`, `.php`, etc.
+
+{% code overflow="wrap" %}
+```sh
+ffuf -w /opt/useful/SecLists/Discovery/Web-Content/web-extensions.txt:FUZZ -u http://example.com:PORT/blog/indexFUZZ
+```
+{% endcode %}
+
+### Recursive Fuzzing
+
 Scanning recursively allow us to identify sub-directories like /login/user/...etc. Additionally we can specify our extension to find webpages.&#x20;
 
 {% code overflow="wrap" %}
@@ -23,5 +33,3 @@ Scanning recursively allow us to identify sub-directories like /login/user/...et
 ffuf -w /opt/useful/SecLists/Discovery/Web-Content/directory-list-2.3-small.txt:FUZZ -u http://example.com:PORT/FUZZ -recursion -recursion-depth 1 -e .php -v
 ```
 {% endcode %}
-
-### Recursive Fuzzing
