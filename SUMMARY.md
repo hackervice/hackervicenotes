@@ -13,6 +13,7 @@
     * [Attacking Web Applications with Ffuf](ctf-labs/htb-certified-bug-bounty-hunter/attacking-web-applications-with-ffuf/README.md)
       * [Directory Fuzzing](ctf-labs/htb-certified-bug-bounty-hunter/attacking-web-applications-with-ffuf/directory-fuzzing.md)
       * [Page Fuzzing](ctf-labs/htb-certified-bug-bounty-hunter/attacking-web-applications-with-ffuf/page-fuzzing.md)
+      * [Recursive Fuzzing](ctf-labs/htb-certified-bug-bounty-hunter/attacking-web-applications-with-ffuf/recursive-fuzzing.md)
 * [🌐 Web Applications](web-applications/README.md)
   * [📒 Enumeration](web-applications/enumeration/README.md)
     * [Passive Subdomain Enumeration](web-applications/enumeration/passive-subdomain-enumeration.md)
