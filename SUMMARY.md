@@ -1,6 +1,6 @@
 # Table of contents
 
-* [🤓 Welcome to Hackervice](README.md)
+* [🤓 Welcome to HackerVice](README.md)
 * [🧪 CTF / Labs](ctf-labs/README.md)
   * [HTB Certified Bug Bounty Hunter](ctf-labs/htb-certified-bug-bounty-hunter/README.md)
     * [Information Gathering](ctf-labs/htb-certified-bug-bounty-hunter/information-gathering/README.md)
@@ -15,6 +15,7 @@
       * [Page Fuzzing](ctf-labs/htb-certified-bug-bounty-hunter/attacking-web-applications-with-ffuf/page-fuzzing.md)
       * [Recursive Fuzzing](ctf-labs/htb-certified-bug-bounty-hunter/attacking-web-applications-with-ffuf/recursive-fuzzing.md)
       * [Subdomain Fuzzing](ctf-labs/htb-certified-bug-bounty-hunter/attacking-web-applications-with-ffuf/subdomain-fuzzing.md)
+      * [Filtering Results](ctf-labs/htb-certified-bug-bounty-hunter/attacking-web-applications-with-ffuf/filtering-results.md)
 * [🌐 Web Applications](web-applications/README.md)
   * [📒 Enumeration](web-applications/enumeration/README.md)
     * [Passive Subdomain Enumeration](web-applications/enumeration/passive-subdomain-enumeration.md)
