@@ -51,3 +51,17 @@ If there are no DNS records mapping a hostname to an IP address, accessing the h
 ffuf -w /opt/useful/SecLists/Discovery/DNS/subdomains-top1million-5000.txt:FUZZ -u http://example.com:PORT/ -H 'Host: FUZZ.example.com'
 ```
 {% endcode %}
+
+### GET Request Fuzzing
+
+We can also use ffuf to enumerate parameters. The parameters are usually passed right after the URL, with a `?` symbol, like this:
+
+`http://admin.example.com:PORT/admin/admin.php?param1=key`.
+
+So, all we have to do is to replace `param1` with `FUZZ` like in the previous examples. And we can use this [wordlist](https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/burp-parameter-names.txt) along with the following command:
+
+{% code overflow="wrap" %}
+```sh
+ffuf -w /opt/useful/SecLists/Discovery/Web-Content/burp-parameter-names.txt:FUZZ -u http://admin.example.com:PORT/admin/admin.php?FUZZ=key -fs xxx
+```
+{% endcode %}
