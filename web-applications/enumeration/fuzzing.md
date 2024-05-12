@@ -52,7 +52,9 @@ ffuf -w /opt/useful/SecLists/Discovery/DNS/subdomains-top1million-5000.txt:FUZZ 
 ```
 {% endcode %}
 
-### GET Request Fuzzing
+### Parameter Fuzzing
+
+#### GET
 
 We can also use ffuf to enumerate parameters. The parameters are usually passed right after the URL, with a `?` symbol, like this:
 
@@ -65,3 +67,22 @@ So, all we have to do is to replace `param1` with `FUZZ` like in the previous ex
 ffuf -w /opt/useful/SecLists/Discovery/Web-Content/burp-parameter-names.txt:FUZZ -u http://admin.example.com:PORT/admin/admin.php?FUZZ=key -fs xxx
 ```
 {% endcode %}
+
+#### POST
+
+Post requests are not passed in the URL because it cannot be appended after a `?` symbol. To fuzz a parameter with `ffuf` we must use de flag `-d`. And we also have to add `-X POST` to send a `POST` request.
+
+{% code overflow="wrap" %}
+```sh
+ffuf -w /opt/useful/SecLists/Discovery/Web-Content/burp-parameter-names.txt:FUZZ -u http://admin.example.com:PORT/admin/admin.php -X POST -d 'FUZZ=key' -H 'Content-Type: application/x-www-form-urlencoded' -fs xxx
+```
+{% endcode %}
+
+We can check what we hit (in this example is the `id` parameter) with the last command, by send a POST request with curl.
+
+{% code overflow="wrap" %}
+```sh
+curl http://admin.example.com:PORT/admin/admin.php -X POST -d 'id=key' -H 'Content-Type: application/x-www-form-urlencoded'
+```
+{% endcode %}
+
