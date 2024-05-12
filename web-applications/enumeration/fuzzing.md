@@ -14,6 +14,8 @@ ffuf -w /opt/useful/SecLists/Discovery/Web-Content/directory-list-2.3-small.txt:
 ```
 {% endcode %}
 
+***
+
 ### Page Fuzzing
 
 After we found a directory it might return an empty page. To discover common files we can fuzz well-known pages like `.html`, `.aspx`, `.php`, etc.
@@ -23,6 +25,8 @@ After we found a directory it might return an empty page. To discover common fil
 ffuf -w /opt/useful/SecLists/Discovery/Web-Content/web-extensions.txt:FUZZ -u http://example.com:PORT/blog/indexFUZZ
 ```
 {% endcode %}
+
+***
 
 ### Recursive Fuzzing
 
@@ -34,6 +38,8 @@ ffuf -w /opt/useful/SecLists/Discovery/Web-Content/directory-list-2.3-small.txt:
 ```
 {% endcode %}
 
+***
+
 ### Subdomain Fuzzing
 
 {% code overflow="wrap" %}
@@ -41,6 +47,8 @@ ffuf -w /opt/useful/SecLists/Discovery/Web-Content/directory-list-2.3-small.txt:
 ffuf -w /opt/useful/SecLists/Discovery/DNS/subdomains-top1million-5000.txt:FUZZ -u https://FUZZ.example.com/
 ```
 {% endcode %}
+
+***
 
 ### Vhost Fuzzing
 
@@ -51,6 +59,8 @@ If there are no DNS records mapping a hostname to an IP address, accessing the h
 ffuf -w /opt/useful/SecLists/Discovery/DNS/subdomains-top1million-5000.txt:FUZZ -u http://example.com:PORT/ -H 'Host: FUZZ.example.com'
 ```
 {% endcode %}
+
+***
 
 ### Parameter Fuzzing
 
@@ -83,6 +93,30 @@ We can check what we hit (in this example is the `id` parameter) with the last c
 {% code overflow="wrap" %}
 ```sh
 curl http://admin.example.com:PORT/admin/admin.php -X POST -d 'id=key' -H 'Content-Type: application/x-www-form-urlencoded'
+```
+{% endcode %}
+
+***
+
+### Value Fuzzing
+
+After we enumerate successfully our target, we now have to fuzz the correct value that would return the `flag` content we need.
+
+We can create a custom wordlist so it can fit our type of fuzzing, like usernames or ids. Or we can look for some well-known wordlists like the [SecLists](https://github.com/danielmiessler/SecLists), for example.
+
+A simple way to create an `id` parameter wordlist from 1-1000 is by using scripting languages like Bash or Python.
+
+{% code title="Creates a file with 1-1000 numbers" overflow="wrap" %}
+```shell
+for i in $(seq 1 1000); do echo $i >> ids.txt; done
+```
+{% endcode %}
+
+To use it with `ffuf` we can do the following command:
+
+{% code overflow="wrap" %}
+```shell
+ffuf -w ids.txt:FUZZ -u http://admin.example.com:PORT/admin/admin.php -X POST -d 'id=FUZZ' -H 'Content-Type: application/x-www-form-urlencoded' -fs xxx
 ```
 {% endcode %}
 
