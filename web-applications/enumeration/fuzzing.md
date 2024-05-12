@@ -41,3 +41,13 @@ ffuf -w /opt/useful/SecLists/Discovery/Web-Content/directory-list-2.3-small.txt:
 ffuf -w /opt/useful/SecLists/Discovery/DNS/subdomains-top1million-5000.txt:FUZZ -u https://FUZZ.example.com/
 ```
 {% endcode %}
+
+### Vhost Fuzzing
+
+If there are no DNS records mapping a hostname to an IP address, accessing the host directly via its IP address or by manipulating the `Host` header in HTTP requests may still yield a response from the server. We can use the `-H` flag to specify a header and will use the `FUZZ` keyword within it,
+
+{% code overflow="wrap" %}
+```shell
+ffuf -w /opt/useful/SecLists/Discovery/DNS/subdomains-top1million-5000.txt:FUZZ -u http://example.com:PORT/ -H 'Host: FUZZ.example.com'
+```
+{% endcode %}
