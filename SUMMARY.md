@@ -17,6 +17,7 @@
       * [Subdomain Fuzzing](ctf-labs/htb-certified-bug-bounty-hunter/attacking-web-applications-with-ffuf/subdomain-fuzzing.md)
       * [Filtering Results](ctf-labs/htb-certified-bug-bounty-hunter/attacking-web-applications-with-ffuf/filtering-results.md)
       * [Parameter Fuzzing](ctf-labs/htb-certified-bug-bounty-hunter/attacking-web-applications-with-ffuf/parameter-fuzzing.md)
+      * [Value Fuzzing](ctf-labs/htb-certified-bug-bounty-hunter/attacking-web-applications-with-ffuf/value-fuzzing.md)
 * [🌐 Web Applications](web-applications/README.md)
   * [📒 Enumeration](web-applications/enumeration/README.md)
     * [Passive Subdomain Enumeration](web-applications/enumeration/passive-subdomain-enumeration.md)
