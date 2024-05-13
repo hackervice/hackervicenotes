@@ -3,7 +3,7 @@
 ### Try to create the 'ids.txt' wordlist, identify the accepted value with a fuzzing scan, and then use it in a 'POST' request with 'curl' to collect the flag. What is the content of the flag?
 
 {% hint style="info" %}
-Don't forget to edit the /etc/host file id need :smile:
+Don't forget to edit the /etc/host file id needed :smile:
 {% endhint %}
 
 As suggested, we'll create a custom ids.txt file to fuzz the application
