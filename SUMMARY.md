@@ -18,7 +18,7 @@
       * [Filtering Results](ctf-labs/htb-certified-bug-bounty-hunter/attacking-web-applications-with-ffuf/filtering-results.md)
       * [Parameter Fuzzing](ctf-labs/htb-certified-bug-bounty-hunter/attacking-web-applications-with-ffuf/parameter-fuzzing.md)
       * [Value Fuzzing](ctf-labs/htb-certified-bug-bounty-hunter/attacking-web-applications-with-ffuf/value-fuzzing.md)
-      * [Skills Assessment - Web Fuzzing](ctf-labs/htb-certified-bug-bounty-hunter/attacking-web-applications-with-ffuf/skills-assessment-web-fuzzing.md)
+      * [Skills Assessment - Web Fuzzing (in progress)](ctf-labs/htb-certified-bug-bounty-hunter/attacking-web-applications-with-ffuf/skills-assessment-web-fuzzing-in-progress.md)
 * [🌐 Web Applications](web-applications/README.md)
   * [📒 Enumeration](web-applications/enumeration/README.md)
     * [Passive Subdomain Enumeration](web-applications/enumeration/passive-subdomain-enumeration.md)
