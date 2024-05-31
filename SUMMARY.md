@@ -31,6 +31,7 @@
     * [Crawling](web-applications/enumeration/crawling.md)
     * [Fuzzing](web-applications/enumeration/fuzzing.md)
     * [Wordlists](web-applications/enumeration/wordlists.md)
+    * [Deobfuscation](web-applications/enumeration/deobfuscation.md)
 * [👾 Server-side vulnerabilities](server-side-vulnerabilities/README.md)
   * [Path traversal](server-side-vulnerabilities/path-traversal.md)
   * [Access control](server-side-vulnerabilities/access-control/README.md)
