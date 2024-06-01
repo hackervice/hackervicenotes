@@ -22,6 +22,7 @@
     * [JavaScript Deobfuscation](ctf-labs/htb-certified-bug-bounty-hunter/javascript-deobfuscation/README.md)
       * [Source Code](ctf-labs/htb-certified-bug-bounty-hunter/javascript-deobfuscation/source-code.md)
       * [Deobfuscation](ctf-labs/htb-certified-bug-bounty-hunter/javascript-deobfuscation/deobfuscation.md)
+      * [HTTP Requests](ctf-labs/htb-certified-bug-bounty-hunter/javascript-deobfuscation/http-requests.md)
 * [🌐 Web Applications](web-applications/README.md)
   * [📒 Enumeration](web-applications/enumeration/README.md)
     * [Passive Subdomain Enumeration](web-applications/enumeration/passive-subdomain-enumeration.md)
