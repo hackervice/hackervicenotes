@@ -1,4 +1,4 @@
-# Skills Assessment - Web Fuzzing (in progress)
+# Skills Assessment - Web Fuzzing
 
 ### Run a sub-domain/vhost fuzzing scan on '\*.academy.htb' for the IP shown above. What are all the sub-domains you can identify? (Only write the sub-domain name)
 
@@ -20,7 +20,7 @@ ffuf -w /opt/useful/SecLists/Discovery/DNS/subdomains-top1million-5000.txt:FUZZ 
 ```
 {% endcode %}
 
-<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 And we successfully enumerate three VHosts!
 
@@ -38,7 +38,7 @@ ffuf -w /opt/useful/SecLists/Discovery/Web-Content/web-extensions.txt -u http://
 ```
 {% endcode %}
 
-<figure><img src="../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
