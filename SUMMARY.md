@@ -28,6 +28,7 @@
     * [Cross-Site Scripting (XSS)](ctf-labs/htb-certified-bug-bounty-hunter/cross-site-scripting-xss/README.md)
       * [Stored XSS](ctf-labs/htb-certified-bug-bounty-hunter/cross-site-scripting-xss/stored-xss.md)
       * [Reflected XSS](ctf-labs/htb-certified-bug-bounty-hunter/cross-site-scripting-xss/reflected-xss.md)
+      * [DOM XSS](ctf-labs/htb-certified-bug-bounty-hunter/cross-site-scripting-xss/dom-xss.md)
 * [🌐 Web Applications](web-applications/README.md)
   * [📒 Enumeration](web-applications/enumeration/README.md)
     * [Passive Subdomain Enumeration](web-applications/enumeration/passive-subdomain-enumeration.md)

@@ -34,3 +34,19 @@ XSS cheat sheets:
 
 
 
+### DOM XSS
+
+DOM-based Cross-Site Scripting (XSS) is a type of web vulnerability where the attack payload is executed as a result of modifying the Document Object Model (DOM) in a web page. Unlike other types of XSS attacks that involve server-side scripts, DOM XSS is completely processed on the client-side through JavaScript. This vulnerability arises when client-side scripts dynamically update the DOM based on user input without proper validation, allowing an attacker to inject malicious scripts that are then executed in the context of the victim's browser.
+
+#### Source & Sink
+
+In the context of DOM-based Cross-Site Scripting (XSS), a <mark style="color:purple;">source</mark> is where user-controllable data enters the application, and a <mark style="color:purple;">sink</mark> is where this data is used in a potentially unsafe way, leading to a security vulnerability.
+
+<mark style="color:purple;">**Sources**</mark> in DOM-based XSS include locations where user input or untrusted data is reflected in the DOM, such as URL parameters, document.location, document.referrer, document.cookie, etc.
+
+<mark style="color:purple;">**Sinks**</mark> are places in the application where the data from sources is used in a way that can be exploited by an attacker to execute malicious scripts. Sinks can include functions like eval(), innerHTML, document.write(), etc.
+
+To prevent DOM-based XSS attacks, it's important to properly sanitize and validate user input before it is used in sinks to ensure that it does not contain malicious scripts.
+
+
+
