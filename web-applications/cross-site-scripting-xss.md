@@ -25,3 +25,12 @@ or
 ```
 
 This will tell us where the code is being run. For example a very popular event is just using `alert(1)`,it's simple and very visual, but it doesn't actually tell us where the script is being executed.
+
+XSS cheat sheets:
+
+[Payload all the things](https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/XSS%20Injection)
+
+[PortSwigger XSS cheat sheet](https://portswigger.net/web-security/cross-site-scripting/cheat-sheet)
+
+
+
