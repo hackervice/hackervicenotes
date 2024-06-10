@@ -48,5 +48,19 @@ In the context of DOM-based Cross-Site Scripting (XSS), a <mark style="color:pur
 
 To prevent DOM-based XSS attacks, it's important to properly sanitize and validate user input before it is used in sinks to ensure that it does not contain malicious scripts.
 
+### XSS Discovery
 
+We can use automated the discovery process with open-stools like <mark style="color:purple;">XSS Strike</mark>:
 
+```bash
+git clone https://github.com/s0md3v/XSStrike.git
+cd XSStrike
+pip install -r requirements.txt
+python xsstrike.py
+```
+
+And then we just run the tool:
+
+```shell-session
+python xsstrike.py -u "http://www.example.com:PORT/index.php?menu=test" 
+```
