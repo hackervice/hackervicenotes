@@ -32,6 +32,7 @@
       * [XSS Discovery](ctf-labs/htb-certified-bug-bounty-hunter/cross-site-scripting-xss/xss-discovery.md)
       * [Phishing](ctf-labs/htb-certified-bug-bounty-hunter/cross-site-scripting-xss/phishing.md)
       * [Session Hijacking](ctf-labs/htb-certified-bug-bounty-hunter/cross-site-scripting-xss/session-hijacking.md)
+      * [Skills Assessment](ctf-labs/htb-certified-bug-bounty-hunter/cross-site-scripting-xss/skills-assessment.md)
 * [🌐 Web Applications](web-applications/README.md)
   * [📒 Enumeration](web-applications/enumeration/README.md)
     * [Passive Subdomain Enumeration](web-applications/enumeration/passive-subdomain-enumeration.md)
