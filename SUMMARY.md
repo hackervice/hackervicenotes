@@ -58,5 +58,6 @@
   * [File upload vulnerabilities](server-side-vulnerabilities/file-upload-vulnerabilities.md)
   * [OS command injection](server-side-vulnerabilities/os-command-injection.md)
   * [SQL Injection](server-side-vulnerabilities/sql-injection/README.md)
+    * [SQL Injection Using Comments](server-side-vulnerabilities/sql-injection/sql-injection-using-comments.md)
     * [Lab: SQL injection vulnerability in WHERE clause allowing retrieval of hidden data](server-side-vulnerabilities/sql-injection/lab-sql-injection-vulnerability-in-where-clause-allowing-retrieval-of-hidden-data.md)
 * [🖥️ Active Directory](page.md)
