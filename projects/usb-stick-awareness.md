@@ -1,4 +1,8 @@
-# Page
+---
+icon: usb
+---
+
+# USB stick awareness
 
 If you watch Mr. Robot, you must remember a scene where Darlene drops several USB sticks around a prison in order to Elliot get an reverse shell access. All that is needed is someone to pick it up and plug into a computer. Pretty cool, right?
 

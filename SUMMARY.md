@@ -65,4 +65,4 @@
     * [Lab: SQL injection vulnerability in WHERE clause allowing retrieval of hidden data](server-side-vulnerabilities/sql-injection/lab-sql-injection-vulnerability-in-where-clause-allowing-retrieval-of-hidden-data.md)
 * [🖥️ Active Directory](page.md)
 * [⚒️ Projects](projects/README.md)
-  * [Page](projects/page.md)
+  * [USB stick awareness](projects/usb-stick-awareness.md)
