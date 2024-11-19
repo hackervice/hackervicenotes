@@ -10,7 +10,7 @@ If you watch Mr. Robot, you must remember a scene where Darlene drops several US
 
 So, I'm not actually going to show how to create a Rubber Ducky for malicious purposes, instead, let's create a social engineering campaign with regular USB sticks. The purpose is to drop the USB sticks and create awareness to every user.
 
-We need an attacker machine, ideally Kali running a Flask server and many USB sticks as you want.
+We need an attacker machine, ideally Kali running a Flask server, and as many USB sticks as you want.
 
 So, let's dive into it!
 
@@ -74,7 +74,7 @@ So, let's dive into it!
 
     You should see a response indicating that the data was received, and the server logs should show the received data.
 
-Now for the USB stick
+**Now for the USB stick**
 
 1.  **Create a batch file**: Create a new batch file, **script.bat** in the root of the USB stick:
 
