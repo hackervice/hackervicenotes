@@ -6,6 +6,8 @@ icon: usb
 
 If you watch Mr. Robot, you must remember a scene where Darlene drops several USB sticks around a prison in order to Elliot get an reverse shell access. All that is needed is someone to pick it up and plug into a computer. Pretty cool, right?
 
+<figure><img src="../.gitbook/assets/usbstick.gif" alt=""><figcaption><p>Mr. Robot Season 1, Episode 6.</p></figcaption></figure>
+
 So, I'm not actually going to show how to create a Rubber Ducky for malicious purposes, instead, let's create a social engineering campaign with regular USB sticks. The purpose is to drop the USB sticks and create awareness to every user
 
 We need an attacker machine, ideally Kali running a Flask server and at least one USB stick.
@@ -101,9 +103,9 @@ Now for the USB stick
     {% endcode %}
 
     Make sure you change the **server\_ip** for the actual attacker machine IP.
-2. **Download an .ico file**: We can use a .ico file repository like [https://www.shareicon.net/](https://www.shareicon.net/t) and download any pdf .ico you like. Place it at the root of th USB stick.
+2. **Download an .ico file**: We can use a .ico file repository like [https://www.shareicon.net/](https://www.shareicon.net/t) and download any pdf .ico you like. Place it at the root of the USB stick.
 3. **Move the awareness.pdf** file also into the root of the USB stick.
-4. **Create a shortcut of the script.bat file**: Right click the shortcut, go to properties and the click on Change icon and choose the .ico file you just downloaded it. Then rename the file to something mysterious like **secret.pdf**
+4. **Create a shortcut of the script.bat file**: Right click the shortcut, go to properties and click on **Change icon** and choose the .ico file you just downloaded it. Then rename the file to something mysterious like **secret.pdf**
 5. **Put all the files Hidden except for the shortcut, secret.pdf**: Then we untick the **Hidden items** option
 
 <figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>All visible files</p></figcaption></figure>
