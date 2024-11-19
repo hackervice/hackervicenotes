@@ -8,9 +8,9 @@ If you watch Mr. Robot, you must remember a scene where Darlene drops several US
 
 <figure><img src="../.gitbook/assets/usbstick.gif" alt=""><figcaption><p>Mr. Robot Season 1, Episode 6.</p></figcaption></figure>
 
-So, I'm not actually going to show how to create a Rubber Ducky for malicious purposes, instead, let's create a social engineering campaign with regular USB sticks. The purpose is to drop the USB sticks and create awareness to every user
+So, I'm not actually going to show how to create a Rubber Ducky for malicious purposes, instead, let's create a social engineering campaign with regular USB sticks. The purpose is to drop the USB sticks and create awareness to every user.
 
-We need an attacker machine, ideally Kali running a Flask server and at least one USB stick.
+We need an attacker machine, ideally Kali running a Flask server and many USB sticks as you want.
 
 So, let's dive into it!
 
