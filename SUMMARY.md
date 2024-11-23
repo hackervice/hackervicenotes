@@ -62,6 +62,7 @@
   * [SQL Injection](server-side-vulnerabilities/sql-injection/README.md)
     * [SQL Injection Using Comments](server-side-vulnerabilities/sql-injection/sql-injection-using-comments.md)
     * [SQL Injection Using Union Clauses](server-side-vulnerabilities/sql-injection/sql-injection-using-union-clauses.md)
+    * [Union Injection](server-side-vulnerabilities/sql-injection/union-injection.md)
     * [Lab: SQL injection vulnerability in WHERE clause allowing retrieval of hidden data](server-side-vulnerabilities/sql-injection/lab-sql-injection-vulnerability-in-where-clause-allowing-retrieval-of-hidden-data.md)
 * [🖥️ Active Directory](page.md)
 * [⚒️ Projects](projects/README.md)
