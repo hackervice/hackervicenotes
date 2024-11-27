@@ -8,6 +8,17 @@ In a typical SSRF attack, the attacker might cause the server to make a connecti
 
 
 
+Bypass filtering:
+
+<pre class="language-html" data-overflow="wrap"><code class="lang-html">&#x3C;div class="col-xs-4">
+    &#x3C;div class="avatar-image" style="background-image: url('/assets/avatars/5.png')">&#x3C;/div>
+    &#x3C;input type="radio" name="avatar" value="<a data-footnote-ref href="#user-content-fn-1">exploit</a>">
+&#x3C;/div>
+                                
+</code></pre>
+
+
+
 SSRF attacks against the server
 
 🧪Lab: Basic SSRF against the local server
@@ -15,3 +26,5 @@ SSRF attacks against the server
 SSRF attacks against other back-end systems
 
 🧪Lab: Basic SSRF against another back-end system
+
+[^1]: Change the value to private, for example
