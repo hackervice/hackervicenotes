@@ -84,3 +84,21 @@ Merge all the passive reconnaissance files:
 cat example.com_*.txt | sort -u > example.com_subdomains_passive.txt
 cat example.com_subdomains_passive.txt 
 ```
+
+
+
+|                                         |          |            |        |                                              |                         |
+| --------------------------------------- | -------- | ---------- | ------ | -------------------------------------------- | ----------------------- |
+|                                         | whois    |            | domain | Exemplo: whois example.com                   | Responde a DNS internos |
+| Querying: A Records                     | nslookup |            | domain | Exemplo: nslookup example.com                | Responde a DNS internos |
+|                                         | dig      |            | domain | Exemplo: dig example.com                     | Responde a DNS internos |
+| Querying: A Records for a Subdomain     | nslookup | -query=A   | domain | Exemplo: nslookup -query=A example.com       | Responde a DNS internos |
+|                                         | dig      | a          | domain | Exemplo: dig a example.com                   | Responde a DNS internos |
+| Querying: PTR Records for an IP Address | nslookup | -query=PTR | IP     | Exemplo: nslookup -query=PTR 180.xxx.xxx.xxx |                         |
+|                                         | dig      | -x         | IP     | Exemplo: dig -x 180.xxx.xxx.xxx              |                         |
+| Querying: ANY Existing Records          | nslookup | -query=ANY | domain | Exemplo: nslookup -query=ANY example.com     |                         |
+|                                         | dig      | any        | domain | Exemplo: dig any example.com                 |                         |
+| Querying: TXT Records                   | nslookup | -query=TXT | domain | Exemplo: nslookup -query=TXT example.com     |                         |
+|                                         | dig      | txt        | domain | Exemplo: dig txt example.com                 |                         |
+| Querying: MX Records                    | nslookup | -query=MX  | domain | Exemplo: nslookup -query=MX example.com      |                         |
+|                                         | dig      | mx         | domain | Exemplo: dig mx example.com                  |                         |
