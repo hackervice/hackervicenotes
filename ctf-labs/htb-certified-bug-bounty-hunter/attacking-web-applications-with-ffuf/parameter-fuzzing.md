@@ -8,7 +8,7 @@ First of all, edit the /etc/hosts file and add the admin.academy.htb VHost. Othe
 
 Let's make sure we add the option `-fs 798`at the end to avoid an output like this:
 
-<figure><img src="../../../.gitbook/assets/image (3) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Let's gather what we learn in this lesson and use the following command:
 
@@ -18,6 +18,6 @@ ffuf -w /opt/useful/SecLists/Discovery/Web-Content/burp-parameter-names.txt:FUZZ
 ```
 {% endcode %}
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 And the application responded with the `user` parameter!
