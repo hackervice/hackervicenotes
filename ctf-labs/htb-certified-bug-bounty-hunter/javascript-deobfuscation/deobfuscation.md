@@ -6,7 +6,7 @@ For this lag we have to access the target using a web browser.&#x20;
 
 Since we already know that we have to deobfuscate 'secret.js', lets do an Inspect to the webpage, and go to the Debugger tab.
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Accessing the target</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Accessing the target</p></figcaption></figure>
 
 We can see that ,js code is all written in a single line. Lets do a Beautify by clicking in the brackets bellow.
 

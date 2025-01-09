@@ -8,7 +8,7 @@
 
 To look for insertion points we entered random values on the application, and then clicked on Register.
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Then we copy the URL as it is:
 
