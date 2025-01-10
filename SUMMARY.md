@@ -81,6 +81,7 @@
 * [⤴️ Privilege Escalation](privilege-escalation/README.md)
   * [🐧 Linux Privilege Escalation](privilege-escalation/linux-privilege-escalation/README.md)
     * [Kernel Exploits](privilege-escalation/linux-privilege-escalation/kernel-exploits.md)
+    * [SUID](privilege-escalation/linux-privilege-escalation/suid.md)
   * [🪟 Windows Privilege Escalation](privilege-escalation/windows-privilege-escalation.md)
 * [⚒️ Projects](projects/README.md)
   * [USB stick awareness](projects/usb-stick-awareness.md)
