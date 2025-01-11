@@ -83,6 +83,7 @@
     * [Kernel Exploits](privilege-escalation/linux-privilege-escalation/kernel-exploits.md)
     * [SUID](privilege-escalation/linux-privilege-escalation/suid.md)
     * [Capabilities](privilege-escalation/linux-privilege-escalation/capabilities.md)
+    * [Cron jobs](privilege-escalation/linux-privilege-escalation/cron-jobs.md)
   * [🪟 Windows Privilege Escalation](privilege-escalation/windows-privilege-escalation.md)
 * [⚒️ Projects](projects/README.md)
   * [USB stick awareness](projects/usb-stick-awareness.md)
