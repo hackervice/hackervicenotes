@@ -37,6 +37,7 @@
       * [Reading Files](ctf-labs/htb-certified-bug-bounty-hunter/sql-fundamentals/reading-files.md)
       * [Writing files](ctf-labs/htb-certified-bug-bounty-hunter/sql-fundamentals/writing-files.md)
       * [Skills Assessment](ctf-labs/htb-certified-bug-bounty-hunter/sql-fundamentals/skills-assessment.md)
+    * [SQLMap Essentials](ctf-labs/htb-certified-bug-bounty-hunter/sqlmap-essentials.md)
 * [🌐 Web Applications](web-applications/README.md)
   * [📒 Enumeration](web-applications/enumeration/README.md)
     * [Passive Subdomain Enumeration](web-applications/enumeration/passive-subdomain-enumeration.md)
