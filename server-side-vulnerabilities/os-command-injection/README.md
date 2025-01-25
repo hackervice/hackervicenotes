@@ -8,6 +8,26 @@ the application and its data. Often, an attacker can leverage an OS command inje
 
 Useful commands
 
+PHP Example
+
+```php
+<?php
+if (isset($_GET['filename'])) {
+    system("touch /tmp/" . $_GET['filename'] . ".pdf");
+}
+?>
+```
+
+NodeJS Example
+
+```n4js
+app.get("/createfile", function(req, res){
+    child_process.exec(`touch /tmp/${req.query.filename}.txt`);
+})
+```
+
+
+
 Injecting OS commands
 
 Injecting OS commands - Continued
