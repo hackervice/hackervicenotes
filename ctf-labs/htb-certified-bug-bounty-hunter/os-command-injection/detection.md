@@ -1,3 +1,9 @@
+---
+description: >-
+  Try adding any of the injection operators after the ip in IP field. What did
+  the error message say (in English)?
+---
+
 # Detection
 
 Access the target via web browser.

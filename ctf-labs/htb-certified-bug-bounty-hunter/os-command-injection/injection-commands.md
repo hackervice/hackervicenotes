@@ -1,3 +1,9 @@
+---
+description: >-
+  Review the HTML source code of the page to find where the front-end input
+  validation is happening. On which line number is it?
+---
+
 # Injection Commands
 
 <figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>

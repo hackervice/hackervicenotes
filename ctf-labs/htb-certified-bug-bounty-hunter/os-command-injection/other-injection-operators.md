@@ -1,10 +1,11 @@
 ---
 description: >-
-  Try adding any of the injection operators after the ip in IP field. What did
-  the error message say (in English)?
+  Try using the remaining three injection operators (new-line, &, |), and see
+  how each works and how the output differs. Which of them only shows the output
+  of the injected command?
 ---
 
-# Page 1
+# Other Injection Operators
 
 <figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
