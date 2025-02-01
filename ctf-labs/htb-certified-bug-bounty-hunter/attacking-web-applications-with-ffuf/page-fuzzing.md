@@ -10,7 +10,7 @@ ffuf -w /opt/useful/Seclist/Discovery/Web-Content/directory-list-2.3-small.txt:F
 ```
 {% endcode %}
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>ffuf found some php files</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>ffuf found some php files</p></figcaption></figure>
 
 Lets try to open the `home` page in a web browser.
 

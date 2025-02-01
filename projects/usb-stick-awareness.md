@@ -108,7 +108,7 @@ So, let's dive into it!
 4. **Create a shortcut of the script.bat file**: Right click the shortcut, go to properties and click on **Change icon** and choose the .ico file you just downloaded it. Then rename the file to something mysterious like **secret.pdf**
 5. **Put all the files Hidden except for the shortcut, secret.pdf**: Then we untick the **Hidden items** option
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>All visible files</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>All visible files</p></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>What the user will see, hopefully</p></figcaption></figure>
 
