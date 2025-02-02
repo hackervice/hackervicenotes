@@ -76,6 +76,7 @@
   * [OS command injection](server-side-vulnerabilities/os-command-injection.md)
     * [Exploitation](server-side-vulnerabilities/os-command-injection/exploitation.md)
     * [Filter Evasion](server-side-vulnerabilities/os-command-injection/filter-evasion.md)
+    * [Prevention](server-side-vulnerabilities/os-command-injection/prevention.md)
   * [SQL Injection](server-side-vulnerabilities/sql-injection/README.md)
     * [SQL Injection Using Comments](server-side-vulnerabilities/sql-injection/sql-injection-using-comments.md)
     * [SQL Injection Using Union Clauses](server-side-vulnerabilities/sql-injection/sql-injection-using-union-clauses.md)
