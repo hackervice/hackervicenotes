@@ -47,7 +47,7 @@
       * [Bypassing Other Blacklisted Characters](ctf-labs/htb-certified-bug-bounty-hunter/os-command-injection/bypassing-other-blacklisted-characters.md)
       * [Bypassing Blacklisted Commands](ctf-labs/htb-certified-bug-bounty-hunter/os-command-injection/bypassing-blacklisted-commands.md)
       * [Advanced Command Obfuscation](ctf-labs/htb-certified-bug-bounty-hunter/os-command-injection/advanced-command-obfuscation.md)
-    * [Page](ctf-labs/htb-certified-bug-bounty-hunter/page.md)
+      * [Skill Assessment](ctf-labs/htb-certified-bug-bounty-hunter/os-command-injection/skill-assessment.md)
 * [🌐 Web Applications](web-applications/README.md)
   * [📒 Enumeration](web-applications/enumeration/README.md)
     * [Passive Subdomain Enumeration](web-applications/enumeration/passive-subdomain-enumeration.md)
