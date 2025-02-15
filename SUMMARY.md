@@ -48,6 +48,7 @@
       * [Bypassing Blacklisted Commands](ctf-labs/htb-certified-bug-bounty-hunter/command-injections/bypassing-blacklisted-commands.md)
       * [Advanced Command Obfuscation](ctf-labs/htb-certified-bug-bounty-hunter/command-injections/advanced-command-obfuscation.md)
       * [Skills Assessment](ctf-labs/htb-certified-bug-bounty-hunter/command-injections/skills-assessment.md)
+    * [File Upload Attacks](ctf-labs/htb-certified-bug-bounty-hunter/file-upload-attacks.md)
 * [🌐 Web Applications](web-applications/README.md)
   * [📒 Enumeration](web-applications/enumeration/README.md)
     * [Passive Subdomain Enumeration](web-applications/enumeration/passive-subdomain-enumeration.md)
