@@ -51,6 +51,7 @@
     * [File Upload Attacks](ctf-labs/htb-certified-bug-bounty-hunter/file-upload-attacks/README.md)
       * [Absent Validation](ctf-labs/htb-certified-bug-bounty-hunter/file-upload-attacks/absent-validation.md)
       * [Upload Exploitation](ctf-labs/htb-certified-bug-bounty-hunter/file-upload-attacks/upload-exploitation.md)
+      * [Client-Side Validation](ctf-labs/htb-certified-bug-bounty-hunter/file-upload-attacks/client-side-validation.md)
 * [🌐 Web Applications](web-applications/README.md)
   * [📒 Enumeration](web-applications/enumeration/README.md)
     * [Passive Subdomain Enumeration](web-applications/enumeration/passive-subdomain-enumeration.md)
