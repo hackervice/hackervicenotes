@@ -54,6 +54,7 @@
       * [Client-Side Validation](ctf-labs/htb-certified-bug-bounty-hunter/file-upload-attacks/client-side-validation.md)
       * [Blacklist Filters](ctf-labs/htb-certified-bug-bounty-hunter/file-upload-attacks/blacklist-filters.md)
       * [Whitelist Filters](ctf-labs/htb-certified-bug-bounty-hunter/file-upload-attacks/whitelist-filters.md)
+      * [Type Filters](ctf-labs/htb-certified-bug-bounty-hunter/file-upload-attacks/type-filters.md)
 * [🌐 Web Applications](web-applications/README.md)
   * [📒 Enumeration](web-applications/enumeration/README.md)
     * [Passive Subdomain Enumeration](web-applications/enumeration/passive-subdomain-enumeration.md)

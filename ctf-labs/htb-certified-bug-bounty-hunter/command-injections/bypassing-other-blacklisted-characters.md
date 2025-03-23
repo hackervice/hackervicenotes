@@ -8,7 +8,7 @@ description: >-
 
 In order to display the name of the user in the `/home` folder we must combine several techiniques learned in the last sections.
 
-<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 We have to use the following command in order to list the user:
 
