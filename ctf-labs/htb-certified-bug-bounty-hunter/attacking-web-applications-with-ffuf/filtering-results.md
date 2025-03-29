@@ -8,7 +8,7 @@ The first thing to do is to add the given IP to our /etc/hosts file.
 sudo sh -c 'echo "94.237.63.93  academy.htb" >> /etc/hosts' 
 ```
 
-<figure><img src="../../../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 When I ran the command for the first time I got a bunch of results. Make sure you add the option `-fs 986` at the end to filter out undesired results.
 
