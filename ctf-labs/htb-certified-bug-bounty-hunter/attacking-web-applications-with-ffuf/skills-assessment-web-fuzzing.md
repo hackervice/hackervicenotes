@@ -20,7 +20,7 @@ ffuf -w /opt/useful/SecLists/Discovery/DNS/subdomains-top1million-5000.txt:FUZZ 
 ```
 {% endcode %}
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 And we successfully enumerate three VHosts!
 
@@ -38,7 +38,7 @@ ffuf -w /opt/useful/SecLists/Discovery/Web-Content/web-extensions.txt -u http://
 ```
 {% endcode %}
 
-<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -58,7 +58,7 @@ ffuf -w /opt/useful/SecLists/Discovery/Web-Content/directory-list-2.3-small.txt:
 ```
 {% endcode %}
 
-<figure><img src="../../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### In the page from the previous question, you should be able to find multiple parameters that are accepted by the page. What are they?
 
@@ -70,7 +70,7 @@ fuf -w /opt/useful/SecLists/Discovery/Web-Content/burp-parameter-names.txt:FUZZ 
 ```
 {% endcode %}
 
-<figure><img src="../../../.gitbook/assets/image (12).png" alt=""><figcaption><p>user parameter found</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (12) (1).png" alt=""><figcaption><p>user parameter found</p></figcaption></figure>
 
 #### Post method
 
@@ -80,7 +80,7 @@ ffuf -w /opt/useful/SecLists/Discovery/Web-Content/burp-parameter-names.txt:FUZZ
 ```
 {% endcode %}
 
-<figure><img src="../../../.gitbook/assets/image (14).png" alt=""><figcaption><p>user and username parameter found</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (14) (1).png" alt=""><figcaption><p>user and username parameter found</p></figcaption></figure>
 
 And with the Post method we fuzzed two parameters, user and username
 
@@ -99,7 +99,7 @@ ffuf -w /opt/useful/SecLists/Usernames/Names/malenames-usa-top1000.txt:FUZZ -u h
 ```
 {% endcode %}
 
-<figure><img src="../../../.gitbook/assets/image (15).png" alt=""><figcaption><p>Username found</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (15) (1).png" alt=""><figcaption><p>Username found</p></figcaption></figure>
 
 Now to see the content of the page we use the curl command to retrieve the HTML code
 
@@ -109,6 +109,6 @@ curl http://faculty.academy.htb:33056/courses/linux-security.php7 -X POST -d 'us
 ```
 {% endcode %}
 
-<figure><img src="../../../.gitbook/assets/image (16).png" alt=""><figcaption><p>Flag found</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (16) (1).png" alt=""><figcaption><p>Flag found</p></figcaption></figure>
 
 As you can see we found the last flag!

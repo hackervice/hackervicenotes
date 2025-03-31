@@ -10,7 +10,7 @@ First let's do a base64 decoding
 echo N2gxNV8xNV9hX3MzY3IzN19tMzU1NGcz | base64 -d
 ```
 
-<figure><img src="../../../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (21) (1).png" alt=""><figcaption></figcaption></figure>
 
 We managed to decode the string. Now lets send the data as a POST request
 
@@ -20,6 +20,6 @@ curl http://94.237.58.102:36075/serial.php -X POST -d "serial=7h15_15_a_s3cr37_m
 ```
 {% endcode %}
 
-<figure><img src="../../../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (22) (1).png" alt=""><figcaption></figcaption></figure>
 
 And we got the flag!

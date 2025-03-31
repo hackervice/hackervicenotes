@@ -8,6 +8,6 @@ This lab is a little bit too straightforward, as the only thing we have to do is
 curl http://94.237.58.102:36075/serial.php -X POST  
 ```
 
-<figure><img src="../../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (20) (1).png" alt=""><figcaption></figcaption></figure>
 
 And we managed to get the information we were looking for.
