@@ -94,6 +94,7 @@
       * [Database Enumeration](server-side-vulnerabilities/sql-injection/exploitation/database-enumeration.md)
       * [Reading Files](server-side-vulnerabilities/sql-injection/exploitation/reading-files.md)
     * [Lab: SQL injection vulnerability in WHERE clause allowing retrieval of hidden data](server-side-vulnerabilities/sql-injection/lab-sql-injection-vulnerability-in-where-clause-allowing-retrieval-of-hidden-data.md)
+  * [Server-side Attacks](server-side-vulnerabilities/server-side-attacks.md)
 * [🖥️ Active Directory](page.md)
 * [🐚 Shells](shells/README.md)
   * [Netcat](shells/netcat.md)
