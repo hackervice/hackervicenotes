@@ -10,7 +10,7 @@ Try to utilize what you learned in this module to understand how the upload form
 
 For this Skills Assessment we have a web application with some default content, and we have to test the upload screenshot feature to test if there is any vulnerability.
 
-<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -98,7 +98,7 @@ With this Request format we should look to the ones with a lenght over 366. In t
 
 
 
-<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 And the PHP code was executed!
 
