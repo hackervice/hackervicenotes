@@ -4,7 +4,7 @@
 
 The application in this section allows to upload a file, and the goal of this exercise is to try to exploit any file upload vulnerability.
 
-<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 To look for the flag we must adapt the script provided along the section:
 
@@ -16,7 +16,7 @@ To look for the flag we must adapt the script provided along the section:
 
 Just create a file (`nano xxe.svg`), copy and paste the code above and then hit the **Upload** button.
 
-<figure><img src="../../../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 After the image got successfully uploaded, look for the svg file with the **inpect element** too&#x6C;**.**
 
@@ -38,7 +38,7 @@ This time we'll the following script:
 
 Like the last time, upload the file and look for the .svg file.
 
-<figure><img src="../../../.gitbook/assets/image (4) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 You should see a base64 string within. Copy it and use in the command bellow do decode it:
 
@@ -46,6 +46,6 @@ You should see a base64 string within. Copy it and use in the command bellow do 
 echo "base64_string" | base64 --decode
 ```
 
-<figure><img src="../../../.gitbook/assets/image (5) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 And there it is! We manage to decode it and get the uploads directory!

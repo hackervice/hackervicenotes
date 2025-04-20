@@ -60,6 +60,7 @@
     * [Server-side attacks](ctf-labs/htb-certified-bug-bounty-hunter/server-side-attacks/README.md)
       * [Identifying SSRF](ctf-labs/htb-certified-bug-bounty-hunter/server-side-attacks/identifying-ssrf.md)
       * [Exploiting SSRF](ctf-labs/htb-certified-bug-bounty-hunter/server-side-attacks/exploiting-ssrf.md)
+      * [Blind SSRF](ctf-labs/htb-certified-bug-bounty-hunter/server-side-attacks/blind-ssrf.md)
 * [🌐 Web Applications](web-applications/README.md)
   * [📒 Enumeration](web-applications/enumeration/README.md)
     * [Passive Subdomain Enumeration](web-applications/enumeration/passive-subdomain-enumeration.md)

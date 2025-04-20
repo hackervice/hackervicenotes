@@ -8,11 +8,11 @@ The first step to confirm a SSRF vulnerability is to find a POST Request and loc
 
 The vulnerable has a functionallity to check the dates available. Let's click on the button and intercept the request on Burp Suite.
 
-<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 As we can see the application is sending data to the **dateserver.htb**, lets modify it ot 127.0.0.1 to see if we get a Response from the server.
 
-<figure><img src="../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 After modifying the URL the request is successfully sent.
 
@@ -32,10 +32,10 @@ ffuf -w ./ports.txt -u http://SERVER_IP/index.php -X POST -H "Content-Type: appl
 ```
 {% endcode %}
 
-<figure><img src="../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 From the ffuf output above we can see that we have three ports open.
 
-<figure><img src="../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 And with trial and error we manage to get the flag on the port 8000!
