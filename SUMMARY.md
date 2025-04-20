@@ -102,6 +102,8 @@
     * [SSRF](server-side-vulnerabilities/server-side-attacks/ssrf/README.md)
       * [Identifying](server-side-vulnerabilities/server-side-attacks/ssrf/identifying.md)
       * [Exploiting](server-side-vulnerabilities/server-side-attacks/ssrf/exploiting.md)
+      * [Blind SSRF](server-side-vulnerabilities/server-side-attacks/ssrf/blind-ssrf.md)
+      * [Preventing SSRF](server-side-vulnerabilities/server-side-attacks/ssrf/preventing-ssrf.md)
 * [🖥️ Active Directory](page.md)
 * [🐚 Shells](shells/README.md)
   * [Netcat](shells/netcat.md)
