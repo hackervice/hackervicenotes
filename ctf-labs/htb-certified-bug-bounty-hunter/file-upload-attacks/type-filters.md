@@ -8,7 +8,7 @@ So we must apply all the knowledge learned so far.
 
 We start by capturing the request and send to the Intruder.
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Lets cover 3 components in this test:
 
