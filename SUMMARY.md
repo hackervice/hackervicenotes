@@ -83,6 +83,7 @@
   * [Cross-Site Scripting (XSS)](web-applications/cross-site-scripting-xss/README.md)
     * [XSS Attacks](web-applications/cross-site-scripting-xss/xss-attacks.md)
     * [XSS Prevention](web-applications/cross-site-scripting-xss/xss-prevention.md)
+  * [Login Brute Forcing](web-applications/login-brute-forcing.md)
 * [👾 Server-side vulnerabilities](server-side-vulnerabilities/README.md)
   * [Path traversal](server-side-vulnerabilities/path-traversal.md)
   * [Access control](server-side-vulnerabilities/access-control/README.md)
