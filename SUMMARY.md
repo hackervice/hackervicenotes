@@ -96,6 +96,7 @@
     * [Hydra](web-applications/login-brute-forcing/hydra/README.md)
       * [Basic HTTP authentication](web-applications/login-brute-forcing/hydra/basic-http-authentication.md)
       * [Login Forms](web-applications/login-brute-forcing/hydra/login-forms.md)
+    * [Medusa](web-applications/login-brute-forcing/medusa.md)
 * [👾 Server-side vulnerabilities](server-side-vulnerabilities/README.md)
   * [Path traversal](server-side-vulnerabilities/path-traversal.md)
   * [Access control](server-side-vulnerabilities/access-control/README.md)
