@@ -90,6 +90,7 @@
     * [Password Security Fundamentals](web-applications/login-brute-forcing/password-security-fundamentals.md)
     * [Brute Force Attacks](web-applications/login-brute-forcing/brute-force-attacks.md)
     * [Dictionary Attacks](web-applications/login-brute-forcing/dictionary-attacks.md)
+    * [Hybrid Attacks](web-applications/login-brute-forcing/hybrid-attacks.md)
 * [👾 Server-side vulnerabilities](server-side-vulnerabilities/README.md)
   * [Path traversal](server-side-vulnerabilities/path-traversal.md)
   * [Access control](server-side-vulnerabilities/access-control/README.md)
