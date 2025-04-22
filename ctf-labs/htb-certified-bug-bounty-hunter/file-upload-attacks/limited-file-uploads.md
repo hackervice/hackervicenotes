@@ -4,7 +4,7 @@
 
 The application in this section allows to upload a file, and the goal of this exercise is to try to exploit any file upload vulnerability.
 
-<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 To look for the flag we must adapt the script provided along the section:
 
