@@ -4,14 +4,14 @@
 
 * Organizations often require periodic password changes to enhance security, but this can lead to predictable password patterns if users aren't educated on proper password hygiene.
 
-<figure><img src="../../.gitbook/assets/image (173).png" alt=""><figcaption><p>Credits to HTB</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (173).png" alt=""><figcaption><p>Credits to HTB</p></figcaption></figure>
 
 * A common insecure practice is for users to make minor modifications to their passwords (e.g., appending a number or special character), such as changing "Summer2023" to "Summer2023!" or "Summer2024."
 * This predictability creates vulnerabilities that hybrid attacks can exploit.
 
 **How Hybrid Attacks Work:**
 
-<figure><img src="../../.gitbook/assets/image (171).png" alt=""><figcaption><p>Credits to HTB</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (171).png" alt=""><figcaption><p>Credits to HTB</p></figcaption></figure>
 
 * **Initial Phase:** Attackers start with a dictionary attack using a wordlist that includes common passwords, industry terms, and personal information related to the target organization.
 * **Transition to Brute Force:** If the dictionary attack fails, the hybrid attack shifts to a targeted brute-force approach. Instead of random combinations, it modifies known passwords by appending numbers or special characters, significantly reducing the search space.
@@ -60,7 +60,7 @@
 
 **Credential Stuffing:**
 
-<figure><img src="../../.gitbook/assets/image (170).png" alt=""><figcaption><p>Credits to HTB</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (170).png" alt=""><figcaption><p>Credits to HTB</p></figcaption></figure>
 
 * Credential stuffing attacks exploit the common practice of password reuse across multiple accounts, making it easier for attackers to gain unauthorized access.
 * Attackers acquire lists of compromised usernames and passwords from data breaches or phishing scams.
