@@ -37,6 +37,6 @@ Then just run the script and wait for the results:
 python pin-solver.py
 ```
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 After a while, the script eventually gets the PIN and we find our flag!

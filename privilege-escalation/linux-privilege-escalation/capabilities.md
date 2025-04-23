@@ -12,7 +12,7 @@ getcap -r / 2>/dev/null
 
 We can see that both `vim` and `view` have the Capabilities set, but as we can see from the image below neither has the SUID bit set.
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 We can lookup on [GTFObins](https://gtfobins.github.io/) for a binary that helps us to leverage privilege escalation.
 

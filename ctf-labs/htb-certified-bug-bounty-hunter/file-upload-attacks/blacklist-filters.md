@@ -14,7 +14,7 @@ Send the file uploading POST request to the Intruder and add the fuzzing positio
 <?php echo "shell test";?>
 ```
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 When the attack finishes, we can order the results by its length (230) and we can see that in the Response we got the message confirming that the file was uploaded. But this is not enough, this will only work if php code is being is executed. Lets try to open this .php2 file.
 

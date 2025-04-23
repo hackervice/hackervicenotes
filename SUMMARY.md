@@ -76,6 +76,7 @@
       * [Login Forms](ctf-labs/htb-certified-bug-bounty-hunter/login-brute-forcing/login-forms.md)
       * [Web Services](ctf-labs/htb-certified-bug-bounty-hunter/login-brute-forcing/web-services.md)
       * [Custom Wordlists](ctf-labs/htb-certified-bug-bounty-hunter/login-brute-forcing/custom-wordlists.md)
+      * [Skills Assessment Part 1](ctf-labs/htb-certified-bug-bounty-hunter/login-brute-forcing/skills-assessment-part-1.md)
 * [🌐 Web Applications](web-applications/README.md)
   * [📒 Enumeration](web-applications/enumeration/README.md)
     * [Passive Subdomain Enumeration](web-applications/enumeration/passive-subdomain-enumeration.md)
