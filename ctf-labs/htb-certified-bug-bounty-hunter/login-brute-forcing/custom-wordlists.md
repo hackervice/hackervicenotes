@@ -12,7 +12,7 @@ Getting the flag:
   ```
   {% endcode %}
 
-**Step 2** - Use CUPP to create a personolyzed passoword list:
+**Step 2** - Use CUPP to create a personalized password list:
 
 *
 
