@@ -82,6 +82,7 @@
       * [Brute-Force Attacks](ctf-labs/htb-certified-bug-bounty-hunter/broken-authentication/brute-force-attacks.md)
       * [Brute-Forcing Passwords](ctf-labs/htb-certified-bug-bounty-hunter/broken-authentication/brute-forcing-passwords.md)
       * [Brute-Forcing Password Reset Tokens](ctf-labs/htb-certified-bug-bounty-hunter/broken-authentication/brute-forcing-password-reset-tokens.md)
+      * [Brute-Forcing 2FA Codes](ctf-labs/htb-certified-bug-bounty-hunter/broken-authentication/brute-forcing-2fa-codes.md)
 * [🌐 Web Applications](web-applications/README.md)
   * [📒 Enumeration](web-applications/enumeration/README.md)
     * [Passive Subdomain Enumeration](web-applications/enumeration/passive-subdomain-enumeration.md)
