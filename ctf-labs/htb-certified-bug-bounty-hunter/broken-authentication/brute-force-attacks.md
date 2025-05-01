@@ -16,6 +16,6 @@ To complete this assessment we need the SecLists usernames wordlist and a simple
   ```
   {% endcode %}
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
 After a few seconds we got the username!
