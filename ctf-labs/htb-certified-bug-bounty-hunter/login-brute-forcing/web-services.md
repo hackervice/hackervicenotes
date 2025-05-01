@@ -13,7 +13,7 @@ Getting the flag:
   {% endcode %}
 *
 
-    <figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Step 2** - Login to the server with the password we just found:
 
@@ -24,7 +24,7 @@ Getting the flag:
   {% endcode %}
 *
 
-    <figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Step 3** - Expand the Attack Surface:
 

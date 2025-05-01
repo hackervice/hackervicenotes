@@ -14,6 +14,6 @@ If we enter the local host in the input field, when clicking the check button th
 
 The only thing we have to do is try to insert an operator after the IP
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 "Please match the requested format" is the anwser. Don't bother exploit the input field, this is done my intercepting with Burp (or other tool), but not required for this section.
