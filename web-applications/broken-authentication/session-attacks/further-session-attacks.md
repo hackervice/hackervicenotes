@@ -6,7 +6,7 @@
 
 **1. Session Fixation:**
 
-* **Definition:** Session fixation is an attack that allows an attacker to take over a victim's session by coercing them into using a session token chosen by the attacker.
+* **Definition:** [Session fixation](https://owasp.org/www-community/attacks/Session_fixation) is an attack that allows an attacker to take over a victim's session by coercing them into using a session token chosen by the attacker.
 * **Mechanism:**
   * A vulnerable web application does not generate a new session token after successful authentication.
   * The attacker first obtains a valid session token (e.g., `a1b2c3d4e5f6`) by authenticating to the application.
