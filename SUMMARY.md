@@ -87,6 +87,7 @@
       * [Authentication Bypass via Direct Access](ctf-labs/htb-certified-bug-bounty-hunter/broken-authentication/authentication-bypass-via-direct-access.md)
       * [Authentication Bypass via Parameter Modification](ctf-labs/htb-certified-bug-bounty-hunter/broken-authentication/authentication-bypass-via-parameter-modification.md)
       * [Attacking Session Tokens](ctf-labs/htb-certified-bug-bounty-hunter/broken-authentication/attacking-session-tokens.md)
+    * [Skills Assessment](ctf-labs/htb-certified-bug-bounty-hunter/skills-assessment.md)
 * [🌐 Web Applications](web-applications/README.md)
   * [📒 Enumeration](web-applications/enumeration/README.md)
     * [Passive Subdomain Enumeration](web-applications/enumeration/passive-subdomain-enumeration.md)
