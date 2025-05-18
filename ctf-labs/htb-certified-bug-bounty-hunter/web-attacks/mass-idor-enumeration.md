@@ -1,8 +1,8 @@
 # Mass IDOR Enumeration
 
-### Repeat what you learned in this section to get a list of documents of the first 20 user uid's in /documents.php, one of which should have a '.txt' file with the flag.
+#### Repeat what you learned in this section to get a list of documents of the first 20 user uid's in /documents.php, one of which should have a '.txt' file with the flag.
 
-If you followed along the section, you are probably try to get the `uid` parameter from the URL.
+If you followed along the section, you are probably trying to get the `uid` parameter from the URL.
 
 <figure><img src="../../../.gitbook/assets/image (232).png" alt=""><figcaption></figcaption></figure>
 

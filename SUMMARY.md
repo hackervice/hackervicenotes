@@ -92,6 +92,7 @@
       * [Bypassing Basic Authentication](ctf-labs/htb-certified-bug-bounty-hunter/web-attacks/bypassing-basic-authentication.md)
       * [Bypassing Security Filters](ctf-labs/htb-certified-bug-bounty-hunter/web-attacks/bypassing-security-filters.md)
       * [Mass IDOR Enumeration](ctf-labs/htb-certified-bug-bounty-hunter/web-attacks/mass-idor-enumeration.md)
+      * [Bypassing Encoded References](ctf-labs/htb-certified-bug-bounty-hunter/web-attacks/bypassing-encoded-references.md)
 * [🌐 Web Applications](web-applications/README.md)
   * [📒 Enumeration](web-applications/enumeration/README.md)
     * [Passive Subdomain Enumeration](web-applications/enumeration/passive-subdomain-enumeration.md)
