@@ -13,7 +13,7 @@
 
 * A typical password reset flow involves several steps, including requesting a reset token and using it to change the password.
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>Credits to HTB</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption><p>Credits to HTB</p></figcaption></figure>
 
 **Identifying Weak Reset Tokens:**
 

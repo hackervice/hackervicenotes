@@ -24,7 +24,7 @@ Password Requirments:
 
 * This can be done through the Inspect Element or with Burp Suite
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Step 3 -** Brute-force the password:
 
@@ -34,6 +34,6 @@ Password Requirments:
   ```
   {% endcode %}
 
-<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 And after a few seconds we manage to get the admin passowrd!
