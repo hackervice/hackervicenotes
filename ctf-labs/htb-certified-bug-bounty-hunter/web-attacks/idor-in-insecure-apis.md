@@ -10,4 +10,4 @@ When accessing the web application, click on "Edit Profile" and Intercept the Re
 
 <figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
-If we send the Request to the Repeater and chaange the ID to 5, we get the `uuid` of the corresponding user, confirming and IDOR vulnerability
+If we send the Request to the Repeater and change the ID to 5, we get the `uuid` of the corresponding user, confirming and IDOR vulnerability

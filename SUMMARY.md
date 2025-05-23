@@ -94,6 +94,7 @@
       * [Mass IDOR Enumeration](ctf-labs/htb-certified-bug-bounty-hunter/web-attacks/mass-idor-enumeration.md)
       * [Bypassing Encoded References](ctf-labs/htb-certified-bug-bounty-hunter/web-attacks/bypassing-encoded-references.md)
       * [IDOR in Insecure APIs](ctf-labs/htb-certified-bug-bounty-hunter/web-attacks/idor-in-insecure-apis.md)
+      * [Chaining IDOR Vulnerabilities](ctf-labs/htb-certified-bug-bounty-hunter/web-attacks/chaining-idor-vulnerabilities.md)
 * [🌐 Web Applications](web-applications/README.md)
   * [📒 Enumeration](web-applications/enumeration/README.md)
     * [Passive Subdomain Enumeration](web-applications/enumeration/passive-subdomain-enumeration.md)
