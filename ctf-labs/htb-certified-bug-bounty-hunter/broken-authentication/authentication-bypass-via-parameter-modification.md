@@ -11,7 +11,7 @@ For this exercise we were given low level credentials to the web application. Th
 
 
 
-<figure><img src="../../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
 
 We can see the after we logged in we get the message **"Could not load admin data. Please check your privileges"**, we will use this to filter our brute-force attack.
 
