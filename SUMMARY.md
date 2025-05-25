@@ -97,6 +97,7 @@
       * [Chaining IDOR Vulnerabilities](ctf-labs/htb-certified-bug-bounty-hunter/web-attacks/chaining-idor-vulnerabilities.md)
       * [Local File Disclosure](ctf-labs/htb-certified-bug-bounty-hunter/web-attacks/local-file-disclosure.md)
       * [Advanced File Disclosure](ctf-labs/htb-certified-bug-bounty-hunter/web-attacks/advanced-file-disclosure.md)
+      * [Blind Data Exfiltration](ctf-labs/htb-certified-bug-bounty-hunter/web-attacks/blind-data-exfiltration.md)
 * [🌐 Web Applications](web-applications/README.md)
   * [📒 Enumeration](web-applications/enumeration/README.md)
     * [Passive Subdomain Enumeration](web-applications/enumeration/passive-subdomain-enumeration.md)
@@ -208,3 +209,4 @@
 * [⚒️ Projects](projects/README.md)
   * [USB stick awareness](projects/usb-stick-awareness.md)
 * [Wordlists](wordlists.md)
+* [Tools](tools.md)
