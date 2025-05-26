@@ -98,6 +98,7 @@
       * [Local File Disclosure](ctf-labs/htb-certified-bug-bounty-hunter/web-attacks/local-file-disclosure.md)
       * [Advanced File Disclosure](ctf-labs/htb-certified-bug-bounty-hunter/web-attacks/advanced-file-disclosure.md)
       * [Blind Data Exfiltration](ctf-labs/htb-certified-bug-bounty-hunter/web-attacks/blind-data-exfiltration.md)
+      * [Skills Assessment](ctf-labs/htb-certified-bug-bounty-hunter/web-attacks/skills-assessment.md)
 * [🌐 Web Applications](web-applications/README.md)
   * [📒 Enumeration](web-applications/enumeration/README.md)
     * [Passive Subdomain Enumeration](web-applications/enumeration/passive-subdomain-enumeration.md)
