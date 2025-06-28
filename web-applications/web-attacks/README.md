@@ -10,9 +10,7 @@
 * Financial disasters can result from such compromises.
 * Even companies without external web applications are at risk due to internal applications and external APIs.
 
-**Module Focus:**
 
-* This section covers three specific web attacks, including detection, exploitation, and prevention strategies.
 
 #### Key Web Attacks:
 
@@ -29,7 +27,6 @@
     * Targets web applications that process XML data.
     * Outdated XML libraries can be exploited by sending malicious XML data.
     * Potential outcomes include disclosing sensitive local files (e.g., configuration files) and stealing server credentials, leading to remote code execution.
-    *
 
     #### Conclusion:
 

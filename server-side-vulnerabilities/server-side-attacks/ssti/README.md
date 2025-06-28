@@ -22,11 +22,9 @@
      *   Template:
 
          ```
-         {% raw %}
          {% for name in names %}
          Hello {{ name }}!
          {% endfor %}
-         {% endraw %}
          ```
      *   If `names` is `["vautia", "21y4d", "Pedant"]`, the output will be:
 
