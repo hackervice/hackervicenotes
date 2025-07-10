@@ -14,7 +14,7 @@ for i in $(seq 1 1000); do echo $i >> ids.txt; done
 ```
 {% endcode %}
 
-<figure><img src="../../../.gitbook/assets/image (8) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (8) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 We'll then fuzz the application with our custom wordlist with the following command:
 
