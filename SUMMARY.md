@@ -103,6 +103,7 @@
       * [Local File Inclusion (LFI)](ctf-labs/htb-certified-bug-bounty-hunter/file-inclusion/local-file-inclusion-lfi.md)
       * [Basic Bypasses](ctf-labs/htb-certified-bug-bounty-hunter/file-inclusion/basic-bypasses.md)
       * [PHP Filters](ctf-labs/htb-certified-bug-bounty-hunter/file-inclusion/php-filters.md)
+      * [PHP Wrappers](ctf-labs/htb-certified-bug-bounty-hunter/file-inclusion/php-wrappers.md)
 * [🌐 Web Applications](web-applications/README.md)
   * [📒 Enumeration](web-applications/enumeration/README.md)
     * [Passive Subdomain Enumeration](web-applications/enumeration/passive-subdomain-enumeration.md)
