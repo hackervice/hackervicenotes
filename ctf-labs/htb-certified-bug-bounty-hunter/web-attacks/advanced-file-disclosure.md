@@ -8,11 +8,11 @@
 
 * Fill the form click on **Send Message**.
 
-<figure><img src="../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Capture the POST Request and send it with Repeater
 
-<figure><img src="../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Like the last exercise, we can see the value of the tag `email`  being reflected on the Response. This time to extract the data, we'll wrap the content of the external file reference with a `CDATA` .
 
