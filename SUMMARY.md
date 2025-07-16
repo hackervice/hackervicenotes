@@ -106,6 +106,7 @@
       * [PHP Wrappers](ctf-labs/htb-certified-bug-bounty-hunter/file-inclusion/php-wrappers.md)
       * [Remote File Inclusion (RFI)](ctf-labs/htb-certified-bug-bounty-hunter/file-inclusion/remote-file-inclusion-rfi.md)
       * [LFI and File Uploads](ctf-labs/htb-certified-bug-bounty-hunter/file-inclusion/lfi-and-file-uploads.md)
+      * [Log Poisoning](ctf-labs/htb-certified-bug-bounty-hunter/file-inclusion/log-poisoning.md)
 * [🌐 Web Applications](web-applications/README.md)
   * [📒 Enumeration](web-applications/enumeration/README.md)
     * [Passive Subdomain Enumeration](web-applications/enumeration/passive-subdomain-enumeration.md)
