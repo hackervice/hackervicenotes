@@ -6,7 +6,7 @@ This web application has a blacklist applied, if we try to modify the extension 
 
 What we can do is try other extensions to see if they're being accepted in the case the developers missed out.
 
-<figure><img src="../../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Send the file uploading POST request to the Intruder and add the fuzzing position. We'll use this fuzz list by [SecList](https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/web-extensions.txt), and then we start the attack. Besides fuzzing the extension we also must add something to see if the actual php code runs in the respective extension.
 
@@ -14,7 +14,7 @@ Send the file uploading POST request to the Intruder and add the fuzzing positio
 <?php echo "shell test";?>
 ```
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 When the attack finishes, we can order the results by its length (230) and we can see that in the Response we got the message confirming that the file was uploaded. But this is not enough, this will only work if php code is being is executed. Lets try to open this .php2 file.
 

@@ -14,7 +14,7 @@
 
 * Substitute the **en.php** for **../../../../../etc/passwd**
 
-<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 And you got the user starting by 'b'!
 
@@ -26,6 +26,6 @@ And you got the user starting by 'b'!
 
 * Access the flag content by specifying the full path **/usr/share/flags/flag.txt**
 
-<figure><img src="../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 And you got the flag!

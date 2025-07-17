@@ -6,7 +6,7 @@
 
 * Select a language - the vulnerable parameter is **language**.
 
-<figure><img src="../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Step 2** - Access the flag file on the root directory
 
