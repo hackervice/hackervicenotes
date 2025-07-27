@@ -109,6 +109,7 @@
       * [Log Poisoning](ctf-labs/htb-certified-bug-bounty-hunter/file-inclusion/log-poisoning.md)
       * [Automated Scanning](ctf-labs/htb-certified-bug-bounty-hunter/file-inclusion/automated-scanning.md)
       * [File Inclusion Prevention](ctf-labs/htb-certified-bug-bounty-hunter/file-inclusion/file-inclusion-prevention.md)
+      * [Skills Assessment](ctf-labs/htb-certified-bug-bounty-hunter/file-inclusion/skills-assessment.md)
 * [🌐 Web Applications](web-applications/README.md)
   * [📒 Enumeration](web-applications/enumeration/README.md)
     * [Passive Subdomain Enumeration](web-applications/enumeration/passive-subdomain-enumeration.md)
