@@ -7,7 +7,7 @@
 * On the suspicious vulnerable URL, include a local URL:
   * `http://127.0.0.1/index.php`
 
-<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 * We successfully loaded the index.php again
 
@@ -31,11 +31,11 @@
     ```
     {% endcode %}
 
-<figure><img src="../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * From the output above, our web shell is working perfectly
 * Look for the flag wih `cat ../../../exercise/flag.txt`:
 
-<figure><img src="../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 And we got another flag!

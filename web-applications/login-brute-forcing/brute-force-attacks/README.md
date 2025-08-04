@@ -22,7 +22,7 @@
 * Increasing password length or complexity (adding character types) exponentially increases the search space, making brute-force attacks more difficult.
 * The attacker's computational power significantly affects the time required to crack a password. More powerful hardware can attempt more guesses per second.
 
-<figure><img src="../../../.gitbook/assets/image (10) (1) (1) (1).png" alt=""><figcaption><p>Credits to HTB</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (10) (1) (1) (1) (1).png" alt=""><figcaption><p>Credits to HTB</p></figcaption></figure>
 
 **Cracking Time Comparison:**
 

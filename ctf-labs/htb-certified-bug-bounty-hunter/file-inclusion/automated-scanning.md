@@ -11,7 +11,7 @@
     ```
     {% endcode %}
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
 
 **Step 2** - Fuzz LFI payloads:
 
@@ -22,7 +22,7 @@
     ```
     {% endcode %}
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Step 3** - Test one of the discovered payloads:
 
@@ -33,7 +33,7 @@
     ```
     {% endcode %}
 
-<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Step 4** - Get the flag:
 

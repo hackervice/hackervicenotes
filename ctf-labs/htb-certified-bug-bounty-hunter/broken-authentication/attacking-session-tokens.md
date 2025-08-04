@@ -7,18 +7,18 @@
 * Login into the application
 * Get the session id:
 
-<figure><img src="../../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (14) (1).png" alt=""><figcaption></figcaption></figure>
 
 * Use [DenCode](https://dencode.com/en/) to detect the type of encoding
 
-<figure><img src="../../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (15) (1).png" alt=""><figcaption></figcaption></figure>
 
 * You can confirm with the following command:
   * ```bash
     echo -n 757365723d6874622d7374646e743b726f6c653d75736572 | xxd -r -p
     ```
 
-<figure><img src="../../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (16) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Step 2** - Modify the role:
 

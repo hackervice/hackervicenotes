@@ -11,11 +11,11 @@ For this exercise we were given low level credentials to the web application. Th
 
 
 
-<figure><img src="../../../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (10) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 We can see the after we logged in we get the message **"Could not load admin data. Please check your privileges"**, we will use this to filter our brute-force attack.
 
-<figure><img src="../../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
 
 The Request looks like this. The only information we will need is the host, endpoint and the php session id.
 
@@ -32,7 +32,7 @@ The Request looks like this. The only information we will need is the host, endp
     ```
     {% endcode %}
 
-<figure><img src="../../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
 
 And we manage to get a result!
 
@@ -40,4 +40,4 @@ And we manage to get a result!
 
 * Modify the `user_id` to the one we just have found and we get access to the admin panel!
 
-<figure><img src="../../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure>

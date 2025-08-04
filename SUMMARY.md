@@ -110,6 +110,8 @@
       * [Automated Scanning](ctf-labs/htb-certified-bug-bounty-hunter/file-inclusion/automated-scanning.md)
       * [File Inclusion Prevention](ctf-labs/htb-certified-bug-bounty-hunter/file-inclusion/file-inclusion-prevention.md)
       * [Skills Assessment](ctf-labs/htb-certified-bug-bounty-hunter/file-inclusion/skills-assessment.md)
+    * [Session Security](ctf-labs/htb-certified-bug-bounty-hunter/session-security/README.md)
+      * [Skill Assessment](ctf-labs/htb-certified-bug-bounty-hunter/session-security/skill-assessment.md)
 * [🌐 Web Applications](web-applications/README.md)
   * [📒 Enumeration](web-applications/enumeration/README.md)
     * [Passive Subdomain Enumeration](web-applications/enumeration/passive-subdomain-enumeration.md)

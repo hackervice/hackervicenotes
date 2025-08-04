@@ -6,12 +6,12 @@
 
 * Select a language - the vulnerable parameter is **language**.
 
-<figure><img src="../../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Step 2** - Access the flag file on the root directory
 
 * The application is filtering `../` so lets add `...//` to navigate through the directories
 
-<figure><img src="../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 And flag retrieved!
