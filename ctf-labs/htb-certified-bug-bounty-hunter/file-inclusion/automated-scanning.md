@@ -22,7 +22,7 @@
     ```
     {% endcode %}
 
-<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Step 3** - Test one of the discovered payloads:
 

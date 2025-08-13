@@ -4,7 +4,7 @@
 
 <figure><img src="../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 In this exercise we must look for the flag in the Contracts page. When we download a contract we can see that we intercept a GET Request. The `contract` parameter has the value `MQ==`, which is the base64 encoded value for `1`.
 

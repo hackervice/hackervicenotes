@@ -26,13 +26,13 @@ We don't have any information regarding this questions. However, the statement a
 
 If we paste the URL on the browser, we should receive the following output:
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 From the output above we can that a url is missing. Let's add it and append the domain to it:
 
 `http://minilab.htb.net/submit-solution?url=http://minilab.htb.net/submit-solution`
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Now the output is different. But what does it mean?&#x20;
 

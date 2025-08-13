@@ -10,7 +10,7 @@ You are given access to a web application with basic protection mechanisms. Use 
 
 The application presented looks a online shoe store. Let's explore if we can find a possible entry point like an ID parameter.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 At the page /shop.html I manage to intercept a POST request with the ID parameter. I was able to do this with Burp Suite, to replicate we just have to go to /shop.html and hover your mouse over a product, and click on "ADD TO CART"
 
