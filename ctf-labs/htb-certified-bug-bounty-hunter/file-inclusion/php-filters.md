@@ -10,7 +10,7 @@
     </strong></code></pre>
 * Three files found
 
-<figure><img src="../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Step 2** - Use PHP Filters to read the file content:
 

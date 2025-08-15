@@ -9,7 +9,7 @@ For this assessment, we are assuming that after a successful login we are redire
 * Access to&#x20;
 * Intercept the Response
 
-<figure><img src="../../../.gitbook/assets/image (5) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Step 2** - Modify the Response:
 

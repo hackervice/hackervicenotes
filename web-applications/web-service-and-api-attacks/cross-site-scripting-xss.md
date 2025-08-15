@@ -6,7 +6,7 @@ Cross-Site Scripting (XSS) vulnerabilities affect web applications and APIs alik
 
 `http://SERVER_IP:PORT/api/download/randomvalue`
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 Since the value is reflected in the response, try to enter a payload.
 

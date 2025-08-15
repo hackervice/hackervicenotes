@@ -8,11 +8,11 @@
 
 * Fill the form click on **Send Message**.
 
-<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Capture the POST Request and send it with Repeater
 
-<figure><img src="../../../.gitbook/assets/image (4) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Like the last exercise, we can see the value of the tag `email`  being reflected on the Response. This time to extract the data, we'll wrap the content of the external file reference with a `CDATA` .
 
@@ -44,7 +44,7 @@ Lets add our XML code and try to read a common file like the **etc/hosts**:
 
 Make sure to add your machine IP, and add the **\&joined,** reference to the email tags.
 
-<figure><img src="../../../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 

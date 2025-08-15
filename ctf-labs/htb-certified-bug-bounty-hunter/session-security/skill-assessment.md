@@ -26,13 +26,13 @@ We don't have any information regarding this questions. However, the statement a
 
 If we paste the URL on the browser, we should receive the following output:
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 From the output above we can that a url is missing. Let's add it and append the domain to it:
 
 `http://minilab.htb.net/submit-solution?url=http://minilab.htb.net/submit-solution`
 
-<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Now the output is different. But what does it mean?&#x20;
 
@@ -40,17 +40,17 @@ This endpoint simulates the admin interaction. Basically this is where we "deliv
 
 Since that we make this clear, now let's explore the application and how we can deliver the payload.
 
-<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 When we logged in with the provided credentials this is are the default values. The vulnerable parameter that we are going to exploit is the **Country** field.&#x20;
 
 To edit it, simply delete the presented values and replace it with `<script>alert(document.domain)</script>`
 
-<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 Then click it on **Share**.
 
-<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 And the payload got executed! Notice the highlighted URL, this is what we have to deliver to the admin.
 

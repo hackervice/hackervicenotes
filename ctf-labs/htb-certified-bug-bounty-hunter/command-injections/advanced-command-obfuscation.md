@@ -18,7 +18,7 @@ I started by short commands like `whoami` to see if I could get an output. Like 
 
 So, my first thought was to split the command and try to build up from there:
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 I manage to get the first  part of the command `find /usr/share/` but I couldn't find a way o build up, because i didn't find a enviroment variable to the `|` character.
 

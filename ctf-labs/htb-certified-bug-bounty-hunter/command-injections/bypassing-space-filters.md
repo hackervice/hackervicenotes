@@ -8,7 +8,7 @@ description: >-
 
 Even we if we found a way to bypass a blacklist, it does mean we can successfully append any command.
 
-<figure><img src="../../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 As this section suggest, we should use Bash Brace Expansion, which automatically adds spaces between arguments wrapped between braces: `{ls,-la}`
 
