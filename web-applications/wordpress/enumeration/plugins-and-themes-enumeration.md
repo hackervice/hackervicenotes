@@ -19,8 +19,10 @@
 **Plugins Active Enumeration**
 
 * ```bash
-  curl -I -X GET http://example.com/wp-content/plugins/mail-masta
+  curl -I http://example.com/wp-content/plugins/mail-masta
   ```
-* If the content does not exist, a `404 Not Found error`&#x20;
-* &#x20;  &#x20;
+* If the content does not exist, a `404 Not Found error` is returned.
 
+The same applies to installed themes.
+
+\
