@@ -204,6 +204,7 @@
       * [Directory Indexing](web-applications/wordpress/enumeration/directory-indexing.md)
       * [User Enumeration](web-applications/wordpress/enumeration/user-enumeration.md)
       * [Login](web-applications/wordpress/enumeration/login.md)
+      * [WPSCan Enumeration](web-applications/wordpress/enumeration/wpscan-enumeration.md)
 * [👾 Server-side vulnerabilities](server-side-vulnerabilities/README.md)
   * [Path traversal](server-side-vulnerabilities/path-traversal.md)
   * [Access control](server-side-vulnerabilities/access-control/README.md)

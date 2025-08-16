@@ -1,6 +1,6 @@
 # Login
 
-#### Post request again xmlrpc.php
+#### Post request against xmlrpc.php
 
 * {% code overflow="wrap" %}
   ```bash
