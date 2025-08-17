@@ -1,4 +1,4 @@
-# Web Service & API Attacks
+# Skills Assessment
 
 #### Our client tasks us with assessing a SOAP web service whose WSDL file resides at `http://<TARGET IP>:3002/wsdl?wsdl`.
 
